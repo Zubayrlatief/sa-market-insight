@@ -31,12 +31,14 @@ current month to find the newest release. Everything is cached under
 python -m pip install -r requirements.txt
 python run.py                     # full pipeline, uses cache
 python run.py --refresh           # force re-scrape
+python run.py --pdf               # also export a PDF (uses installed Chrome/Edge)
 python run.py --sectors energy,fintech,ict
 python run.py --out reports
 ```
 
 Outputs to `reports/`:
 - `sa-market-insight-YYYY-MM-DD.html` — self-contained dashboard (open in a browser)
+- `sa-market-insight-YYYY-MM-DD.pdf` — print-ready version of the same report (with `--pdf`)
 - `sa-market-insight-YYYY-MM-DD.json` — all data, machine-readable
 
 ## Scoring model

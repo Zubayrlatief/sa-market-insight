@@ -9,6 +9,7 @@ Usage:
 
 import argparse
 import json
+import subprocess
 import sys
 from datetime import date
 from pathlib import Path
@@ -24,6 +25,8 @@ def main():
     ap.add_argument("--refresh", action="store_true", help="ignore cache, re-scrape everything")
     ap.add_argument("--out", default="reports", help="output directory")
     ap.add_argument("--sectors", default="", help="comma-separated sector keys to include")
+    ap.add_argument("--pdf", action="store_true",
+                    help="also export a PDF (uses installed Chrome/Edge)")
     args = ap.parse_args()
 
     keys = [k.strip() for k in args.sectors.split(",") if k.strip()] or list(SECTORS)
@@ -88,6 +91,15 @@ def main():
 
     print(f"\nHTML report: {html_path.resolve()}")
     print(f"JSON data:   {json_path.resolve()}")
+
+    if args.pdf:
+        from samarket.report import pdf_export
+        try:
+            pdf_path = pdf_export.html_to_pdf(html_path,
+                                              out_dir / f"sa-market-insight-{stamp}.pdf")
+            print(f"PDF report:  {pdf_path.resolve()}")
+        except (RuntimeError, subprocess.TimeoutExpired) as exc:
+            print(f"PDF export failed: {exc}")
 
 
 if __name__ == "__main__":

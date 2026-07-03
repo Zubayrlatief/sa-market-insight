@@ -89,6 +89,15 @@ svg text { fill:var(--muted); font-size:11px; font-family:'Segoe UI',system-ui,s
 .mini .mbar { flex:1; height:9px; background:#eef1f5; border-radius:5px; }
 .mini .mbar i { display:block; height:9px; border-radius:5px; }
 .mini .mword { width:70px; font-weight:600; }
+* { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+@media print {
+  body { background:#fff; padding:0; font-size:13px; }
+  .wrap { max-width:100%; }
+  h2 { margin-top:26px; }
+  .chart-card, .fact, .kpi, .card, table, .bottomline, .minis, .note { break-inside:avoid; }
+  .sector { border:none; padding:10px 0; break-before:page; }
+  .hl a { color:var(--ink); }
+}
 """
 
 
