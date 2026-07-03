@@ -9,6 +9,32 @@ import html
 from datetime import date
 
 from ..knowledge.benchmarks import NATIONAL_BASELINES
+from . import charts
+
+MONTH_ORDER = ["January", "February", "March", "April", "May", "June", "July",
+               "August", "September", "October", "November", "December"]
+MONTH_ABBR = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep",
+              "Oct", "Nov", "Dec"]
+
+SHORT_NAMES = {
+    "agriculture": "Agriculture", "mining": "Mining", "manufacturing": "Manufacturing",
+    "energy": "Energy", "construction": "Construction", "retail": "Retail",
+    "tourism": "Tourism", "logistics": "Logistics", "fintech": "Fintech",
+    "realestate": "Property", "ict": "ICT", "healthcare": "Healthcare", "bpo": "BPO",
+}
+
+INDUSTRY_NAMES = {
+    "agriculture": "Agriculture, forestry & fishing",
+    "mining": "Mining & quarrying",
+    "manufacturing": "Manufacturing",
+    "utilities": "Electricity, gas & water",
+    "construction": "Construction",
+    "trade_accommodation": "Trade, catering & accommodation",
+    "transport_comms": "Transport & communication",
+    "finance_realestate_business": "Finance, property & business services",
+    "community_services": "Community & personal services",
+    "unclassified": "Unclassified",
+}
 
 CSS = """
 :root { --bg:#f6f7f9; --card:#ffffff; --ink:#1c2733; --muted:#5c6b7a; --line:#e3e8ee;
@@ -54,7 +80,15 @@ td a { color:var(--ink); text-decoration:none; border-bottom:1px dotted #9aa7b4;
 .up { color:var(--green); font-weight:700; } .down { color:var(--red); font-weight:700; }
 .note { background:#eef1f5; border-radius:8px; padding:14px 16px; font-size:13.5px; color:var(--muted); margin-top:10px; }
 svg text { fill:var(--muted); font-size:11px; font-family:'Segoe UI',system-ui,sans-serif; }
-.chart-card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:20px; }
+.chart-card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:20px; margin:14px 0; }
+.chart-card h3 { margin-top:0; }
+.minis { display:grid; grid-template-columns:1fr 1fr; gap:6px 30px; font-family:'Segoe UI',system-ui,sans-serif; font-size:12.5px; margin:12px 0 4px; }
+@media (max-width:700px){ .minis{grid-template-columns:1fr;} }
+.mini { display:flex; align-items:center; gap:10px; }
+.mini .mlabel { width:170px; color:var(--muted); flex-shrink:0; }
+.mini .mbar { flex:1; height:9px; background:#eef1f5; border-radius:5px; }
+.mini .mbar i { display:block; height:9px; border-radius:5px; }
+.mini .mword { width:70px; font-weight:600; }
 """
 
 
@@ -99,27 +133,123 @@ def _fmt(v, suffix=""):
     return f"{v:,.1f}{suffix}" if isinstance(v, (int, float)) else "n/a"
 
 
-def _liq_chart(annual_totals):
-    if not annual_totals:
+def _failure_section(liquidations):
+    """Annual bars + monthly comparison lines + industry breakdown."""
+    if not liquidations:
+        return "<p class='sub'>Liquidation data unavailable this run.</p>"
+    out = []
+
+    annual = liquidations.get("annual_totals")
+    if annual:
+        out.append("<div class='chart-card'><h3>Liquidations per year</h3>"
+                   + charts.annual_bars(annual)
+                   + "<div class='sub'>The last bar is a part-year figure. "
+                     "Source: Stats SA P0043.1 (official data from CIPC).</div></div>")
+
+    monthly = liquidations.get("monthly_totals")
+    if monthly and monthly.get("years"):
+        years = monthly["years"][-3:]
+        idx0 = len(monthly["years"]) - len(years)
+        series = []
+        for j, yr in enumerate(years):
+            col = idx0 + j
+            pts = []
+            for m_i, m_name in enumerate(MONTH_ORDER, start=1):
+                vals = monthly["months"].get(m_name, [])
+                if len(vals) > col:
+                    pts.append((m_i, vals[col]))
+            if pts:
+                color = [charts.GRAY, charts.BLUE, charts.RED][j % 3] if len(years) == 3 \
+                    else [charts.BLUE, charts.RED][j % 2]
+                series.append({"name": str(yr), "color": color, "points": pts})
+        if series:
+            x_labels = {i: MONTH_ABBR[i - 1] for i in range(1, 13)}
+            out.append("<div class='chart-card'><h3>Month by month: this year vs recent years</h3>"
+                       + charts.line_chart(series, x_labels=x_labels, zero_line=False)
+                       + "<div class='sub'>Monthly liquidation counts. A line running below "
+                         "previous years means fewer businesses are closing.</div></div>")
+
+    by_ind = liquidations.get("by_industry", {})
+    items = [(INDUSTRY_NAMES.get(k, k), v.get("ytd_total", 0), charts.RED)
+             for k, v in by_ind.items() if k != "total"]
+    items.sort(key=lambda t: -t[1])
+    if items:
+        out.append("<div class='chart-card'><h3>Which industries are the closures in? "
+                   f"(so far this year, {_esc(liquidations.get('period', ''))} release)</h3>"
+                   + charts.hbar(items, title_gap=250)
+                   + "<div class='sub'>'Unclassified' is large because many closing companies "
+                     "never state an industry — read the named bars as relative pressure.</div></div>")
+    return "".join(out)
+
+
+def _economy_charts(wb):
+    out = []
+    gdp = (wb.get("NY.GDP.MKTP.KD.ZG") or {}).get("series", [])
+    gdp_pts = [(p["year"], round(p["value"], 2)) for p in gdp if p["year"] >= date.today().year - 16]
+    if len(gdp_pts) > 2:
+        out.append("<div class='chart-card'><h3>Economic growth over the last 15 years</h3>"
+                   + charts.line_chart([{"name": "GDP growth", "color": charts.BLUE,
+                                         "points": gdp_pts}], y_suffix="%")
+                   + "<div class='sub'>Real GDP growth per year. Below the dotted zero line, "
+                     "the economy shrank. Source: World Bank.</div></div>")
+
+    groups = [("Agriculture", "NV.AGR.TOTL.KD.ZG", charts.GREEN),
+              ("Manufacturing", "NV.IND.MANF.KD.ZG", charts.RED),
+              ("Industry overall", "NV.IND.TOTL.KD.ZG", charts.AMBER),
+              ("Services", "NV.SRV.TOTL.KD.ZG", charts.BLUE)]
+    series = []
+    for name, code, color in groups:
+        s = (wb.get(code) or {}).get("series", [])
+        pts = [(p["year"], round(p["value"], 2)) for p in s if p["year"] >= date.today().year - 11]
+        if len(pts) > 2:
+            series.append({"name": name, "color": color, "points": pts})
+    if series:
+        out.append("<div class='chart-card'><h3>Which parts of the economy are growing?</h3>"
+                   + charts.line_chart(series, y_suffix="%")
+                   + "<div class='sub'>Real growth of each broad sector group per year. "
+                     "Source: World Bank.</div></div>")
+    return "".join(out)
+
+
+def _ranking_chart(results):
+    tone_color = {"t-green": charts.GREEN, "t-blue": charts.BLUE,
+                  "t-amber": charts.AMBER, "t-red": charts.RED}
+    items = [(r["name"], r["composite"], tone_color[_tone_tag(r["verdict"])])
+             for r in results]
+    return ("<div class='chart-card'><h3>Health score by market</h3>"
+            + charts.hbar(items, value_fmt="{:.0f}", title_gap=250)
+            + "<div class='sub'>Green = strong growth market, blue = healthy, "
+              "amber = stable but competitive, red = under pressure.</div></div>")
+
+
+def _opportunity_map(results):
+    tone_color = {"t-green": charts.GREEN, "t-blue": charts.BLUE,
+                  "t-amber": charts.AMBER, "t-red": charts.RED}
+    pts = [(100 - r["meta"]["barriers"], r["components"]["structural"],
+            SHORT_NAMES.get(r["key"], r["name"]), tone_color[_tone_tag(r["verdict"])])
+           for r in results]
+    svg = charts.quadrant_scatter(
+        pts, "Easier to get into", "Bigger long-term future",
+        ("Hard to enter, big future", "Prime territory",
+         "Tough and slow", "Easy in, limited ceiling"))
+    return ("<div class='chart-card'><h3>Where opportunity meets accessibility</h3>"
+            + svg
+            + "<div class='sub'>Up = stronger 5-10 year outlook. Right = cheaper/easier for a "
+              "new entrant. The top-right quadrant is where growth and accessibility overlap.</div></div>")
+
+
+def _news_mood_chart(results):
+    items = []
+    for r in sorted(results, key=lambda r: -(r.get("news_signal") or 0)):
+        c = r.get("news_counts")
+        if c:
+            items.append((r["name"], c.get("positive", 0), c.get("negative", 0)))
+    if not items:
         return ""
-    items = sorted(annual_totals.items())
-    peak = max(v for _, v in items) or 1
-    w, h, pad = 660, 190, 32
-    bw = (w - pad * 2) / len(items) - 14
-    bars = []
-    for i, (yr, v) in enumerate(items):
-        bh = (v / peak) * (h - pad * 2)
-        x = pad + i * ((w - pad * 2) / len(items))
-        y = h - pad - bh
-        partial = " opacity='.45'" if i == len(items) - 1 else ""
-        bars.append(f"<rect x='{x:.0f}' y='{y:.0f}' width='{bw:.0f}' height='{bh:.0f}' "
-                    f"rx='4' fill='#c0392b'{partial}/>"
-                    f"<text x='{x + bw / 2:.0f}' y='{h - 12}' text-anchor='middle'>{yr}</text>"
-                    f"<text x='{x + bw / 2:.0f}' y='{y - 6:.0f}' text-anchor='middle'>{v:,}</text>")
-    return (f"<div class='chart-card'><svg viewBox='0 0 {w} {h}' style='max-width:{w}px;width:100%'>"
-            + "".join(bars) +
-            "</svg><div class='sub'>Company liquidations per year, nationally. The last bar is a "
-            "part-year figure. Source: Stats SA P0043.1 (official data from CIPC).</div></div>")
+    return ("<div class='chart-card'><h3>News mood by market (last 6 months)</h3>"
+            + charts.diverging(items, title_gap=250)
+            + "<div class='sub'>Headlines classified as expansion/investment (green) vs "
+              "closures/distress (red) from Google News South Africa.</div></div>")
 
 
 def _exec_summary(results, liq):
@@ -187,6 +317,25 @@ def _macro_cards(wb, sarb_rates):
     return f"<div class='facts'>{''.join(cards)}</div>"
 
 
+def _mini_bars(comps, barriers):
+    def color(v):
+        return (charts.GREEN if v >= 65 else charts.AMBER if v >= 45 else charts.RED)
+
+    rows = [("Long-term outlook", comps["structural"]),
+            ("Recent growth momentum", comps["momentum"]),
+            ("News mood", comps["news"]),
+            ("Failure trend (high = improving)", comps["failure"]),
+            ("Ease of entry", 100 - barriers)]
+    parts = ["<div class='minis'>"]
+    for label, v in rows:
+        parts.append(
+            f"<div class='mini'><span class='mlabel'>{_esc(label)}</span>"
+            f"<span class='mbar'><i style='width:{v:.0f}%;background:{color(v)}'></i></span>"
+            f"<span class='mword' style='color:{color(v)}'>{_word(v)}</span></div>")
+    parts.append("</div>")
+    return "".join(parts)
+
+
 def _sector_block(r, rank):
     m = r["meta"]
     liq = r["liquidations"] or {}
@@ -228,10 +377,9 @@ def _sector_block(r, rank):
     <span class='tag {_tone_tag(r["verdict"])}'>{_esc(r["verdict"])} · {r["composite"]:.0f}/100</span>
   </div>
   <div class='bottomline'><b>Bottom line:</b> {_esc(m["summary"])}</div>
-  <div class='kv'>Long-term outlook: <b>{_word(comps["structural"])}</b> &nbsp;·&nbsp;
-    Getting in: <b>{_entry_word(m["barriers"])}</b> &nbsp;·&nbsp;
-    Recent momentum: <b>{_word(comps["momentum"])}</b> ({_esc(growth_txt)}) &nbsp;·&nbsp;
-    News mood: <b>{_word(comps["news"])}</b></div>
+  {_mini_bars(comps, m["barriers"])}
+  <div class='kv'>Getting in: <b>{_entry_word(m["barriers"])}</b> &nbsp;·&nbsp;
+    Recent momentum: {_esc(growth_txt)}</div>
 
   <h3>Are businesses failing here?</h3>
   <p>{liq_txt}</p>
@@ -288,16 +436,20 @@ verify before committing money.</p>
 <h2>The economy at a glance</h2>
 <p class='lead'>The backdrop every business in the country operates against.</p>
 {_macro_cards(wb, sarb_rates)}
+{_economy_charts(wb)}
 
 <h2>Are more businesses failing, or fewer?</h2>
 <p class='lead'>Formal liquidations are the official count of companies that closed.
 Most small-business closures never reach this register, so treat it as the tip of the
 iceberg — but the direction of the trend is meaningful.</p>
-{_liq_chart(liquidations.get("annual_totals") if liquidations else None)}
+{_failure_section(liquidations)}
 
 <h2>All markets, ranked</h2>
 <p class='lead'>Health combines long-term outlook (35%), recent growth (25%), news signals (20%)
-and the liquidation trend (20%). Click a market to jump to its full breakdown.</p>
+and the liquidation trend (20%). Click a market in the table to jump to its full breakdown.</p>
+{_ranking_chart(results)}
+{_opportunity_map(results)}
+{_news_mood_chart(results)}
 <table><tr><th>#</th><th>Market</th><th>Verdict</th><th>Health</th>
 <th>5-10yr outlook</th><th>Getting in</th></tr>
 {''.join(rows)}</table>
