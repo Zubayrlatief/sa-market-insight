@@ -1,0 +1,1180 @@
+{
+  "generated": "2026-07-04",
+  "liquidations": {
+    "source_url": "https://www.statssa.gov.za/publications/P00431/P00431May2026.pdf",
+    "period": "May 2026",
+    "by_industry": {
+      "agriculture": {
+        "ytd_total": 7,
+        "same_month_prev_year": 1,
+        "prev_month_total": 2,
+        "month_total": 1,
+        "yoy_change_pct": 0.0
+      },
+      "mining": {
+        "ytd_total": 2,
+        "same_month_prev_year": 0,
+        "prev_month_total": 0,
+        "month_total": 1,
+        "yoy_change_pct": null
+      },
+      "manufacturing": {
+        "ytd_total": 10,
+        "same_month_prev_year": 5,
+        "prev_month_total": 4,
+        "month_total": 2,
+        "yoy_change_pct": -60.0
+      },
+      "utilities": {
+        "ytd_total": 0,
+        "same_month_prev_year": 0,
+        "prev_month_total": 0,
+        "month_total": 0,
+        "yoy_change_pct": null
+      },
+      "construction": {
+        "ytd_total": 30,
+        "same_month_prev_year": 10,
+        "prev_month_total": 6,
+        "month_total": 7,
+        "yoy_change_pct": -30.0
+      },
+      "trade_accommodation": {
+        "ytd_total": 129,
+        "same_month_prev_year": 29,
+        "prev_month_total": 23,
+        "month_total": 19,
+        "yoy_change_pct": -34.5
+      },
+      "transport_comms": {
+        "ytd_total": 11,
+        "same_month_prev_year": 1,
+        "prev_month_total": 5,
+        "month_total": 0,
+        "yoy_change_pct": -100.0
+      },
+      "finance_realestate_business": {
+        "ytd_total": 145,
+        "same_month_prev_year": 42,
+        "prev_month_total": 24,
+        "month_total": 26,
+        "yoy_change_pct": -38.1
+      },
+      "community_services": {
+        "ytd_total": 36,
+        "same_month_prev_year": 4,
+        "prev_month_total": 12,
+        "month_total": 4,
+        "yoy_change_pct": 0.0
+      },
+      "unclassified": {
+        "ytd_total": 746,
+        "same_month_prev_year": 176,
+        "prev_month_total": 157,
+        "month_total": 165,
+        "yoy_change_pct": -6.2
+      },
+      "total": {
+        "ytd_total": 1116,
+        "same_month_prev_year": 268,
+        "prev_month_total": 233,
+        "month_total": 225,
+        "yoy_change_pct": -16.0
+      }
+    },
+    "monthly_totals": {
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "months": {
+        "January": [
+          135,
+          131,
+          133,
+          129,
+          182,
+          186,
+          159
+        ],
+        "February": [
+          192,
+          206,
+          175,
+          219,
+          238,
+          243,
+          223
+        ],
+        "March": [
+          164,
+          232,
+          226,
+          237,
+          232,
+          231,
+          276
+        ],
+        "April": [
+          0,
+          180,
+          192,
+          161,
+          191,
+          199,
+          233
+        ],
+        "May": [
+          201,
+          199,
+          203,
+          233,
+          233,
+          268,
+          225
+        ],
+        "June": [
+          144,
+          168,
+          177,
+          217,
+          221,
+          246
+        ],
+        "July": [
+          203,
+          179,
+          202,
+          211,
+          227,
+          311
+        ],
+        "August": [
+          237,
+          213,
+          187,
+          198,
+          217,
+          268
+        ],
+        "September": [
+          228,
+          173,
+          218,
+          222,
+          196,
+          285
+        ],
+        "October": [
+          220,
+          219,
+          185,
+          199,
+          312,
+          242
+        ],
+        "November": [
+          261,
+          194,
+          215,
+          287,
+          200,
+          275
+        ],
+        "December": [
+          162,
+          138,
+          198,
+          188,
+          177,
+          150
+        ]
+      }
+    },
+    "annual_totals": {
+      "2020": 2147,
+      "2021": 2232,
+      "2022": 2311,
+      "2023": 2501,
+      "2024": 2626,
+      "2025": 2904,
+      "2026": 1116
+    }
+  },
+  "macro": {
+    "NY.GDP.MKTP.KD.ZG": {
+      "label": "GDP growth",
+      "latest": {
+        "year": 2025,
+        "value": 1.11462608103956
+      }
+    },
+    "FP.CPI.TOTL.ZG": {
+      "label": "Inflation (CPI)",
+      "latest": {
+        "year": 2025,
+        "value": 3.20550474112603
+      }
+    },
+    "SL.UEM.TOTL.ZS": {
+      "label": "Unemployment",
+      "latest": {
+        "year": 2025,
+        "value": 32.391
+      }
+    },
+    "NE.CON.PRVT.KD.ZG": {
+      "label": "Household consumption growth",
+      "latest": {
+        "year": 2025,
+        "value": 3.56260978002392
+      }
+    },
+    "BX.KLT.DINV.WD.GD.ZS": {
+      "label": "FDI inflows",
+      "latest": {
+        "year": 2024,
+        "value": 0.580891709673066
+      }
+    },
+    "IC.BUS.NDNS.ZS": {
+      "label": "New business density",
+      "latest": {
+        "year": 2024,
+        "value": 11.4575083712974
+      }
+    },
+    "IT.NET.USER.ZS": {
+      "label": "Internet users",
+      "latest": {
+        "year": 2024,
+        "value": 78.35759735
+      }
+    },
+    "EG.ELC.ACCS.ZS": {
+      "label": "Access to electricity",
+      "latest": {
+        "year": 2023,
+        "value": 87.7
+      }
+    },
+    "NV.AGR.TOTL.KD.ZG": {
+      "label": "Agriculture value added growth",
+      "latest": {
+        "year": 2025,
+        "value": 17.427318343066
+      }
+    },
+    "NV.IND.TOTL.KD.ZG": {
+      "label": "Industry value added growth",
+      "latest": {
+        "year": 2025,
+        "value": -1.57027961870828
+      }
+    },
+    "NV.IND.MANF.KD.ZG": {
+      "label": "Manufacturing value added growth",
+      "latest": {
+        "year": 2025,
+        "value": -1.17845593295685
+      }
+    },
+    "NV.SRV.TOTL.KD.ZG": {
+      "label": "Services value added growth",
+      "latest": {
+        "year": 2025,
+        "value": 3.16052185382887e-05
+      }
+    },
+    "NV.AGR.TOTL.ZS": {
+      "label": "Agriculture share of GDP",
+      "latest": {
+        "year": 2025,
+        "value": 2.82763267053972
+      }
+    },
+    "NV.IND.MANF.ZS": {
+      "label": "Manufacturing share of GDP",
+      "latest": {
+        "year": 2025,
+        "value": 12.2545108718651
+      }
+    },
+    "NV.SRV.TOTL.ZS": {
+      "label": "Services share of GDP",
+      "latest": {
+        "year": 2025,
+        "value": 63.0658996160118
+      }
+    }
+  },
+  "sarb_rates": [
+    {
+      "name": "CPI",
+      "value": 4.5,
+      "date": "2026-05-31"
+    },
+    {
+      "name": "PPI",
+      "value": 7.8125,
+      "date": "2026-05-31"
+    },
+    {
+      "name": "Prime lending rate",
+      "value": 10.5,
+      "date": "2026-07-03"
+    }
+  ],
+  "sectors": [
+    {
+      "key": "ict",
+      "name": "ICT, Software & Digital Services",
+      "composite": 78.5,
+      "verdict": "Strong growth market",
+      "opportunity": 79.8,
+      "components": {
+        "structural": 85.0,
+        "momentum": 43.2,
+        "news": 100.0,
+        "failure": 90.0
+      },
+      "avg_growth_3yr": 0.82,
+      "liquidations": {
+        "ytd_total": 11,
+        "same_month_prev_year": 1,
+        "prev_month_total": 5,
+        "month_total": 0,
+        "yoy_change_pct": -100.0
+      },
+      "news_counts": {
+        "positive": 13,
+        "negative": 0,
+        "neutral": 27
+      },
+      "news_signal": 1.0,
+      "headlines": [
+        {
+          "title": "Investment in tech startups rebounds after 'funding winter' - Connecting Africa",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObHJacUJ5WHNOTlRTS3EzbHRkSXllcUpEd04zYmphSkhicW8yLXotR09LcngzMVliMmJXUVVVWWpVY1ppQjBFcmhEb2paRHBldW5kYWtWOUxOZTFhalUtS2lteUpNYkdReWY2WGp4ZHR6azlPWDVWcFJ2YmhCVXFidlFYVUJqaEdkQ094RjdCVWNCZDBiYzAwaTVGRUw4cWl5elVRQg?oc=5",
+          "published": "Tue, 03 Feb 2026 08:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Yango Tech Launches B2B AI and Digital Infrastructure Services in Africa - We are Tech",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZWJjTzQxSl9qZXBzOFktdy10QzNPMGpBTnpRWEdDTXBqQ1U3UGNUTFJtTnJ6OENDREF4ZVBZUWstWHNkZ0hReFMzMHA4ODVQeWRfS05naXhRcmhQblRBUmgydnVkcHpVUkJSZE43UWRQWVBRaUhEU2pabjhURTdnV1dla2tKS0FuMVVSMXhwV1JGT3lMQVNCalpzSHJMNEZtQXBvUWkwb1pUWW5Kb19FRnJ4NTZIdEY4eXBOOWVWVQ?oc=5",
+          "published": "Thu, 21 May 2026 19:38:25 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Africa Health-Tech Accelerator Opens Applications for Early-Stage Startups Building AI and Digital Health Solutions - iAfrica.com",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQd240aVMxczEtZlBqdzN0dGJGVy1VQVZzT3NHNmR3eFVULW04dC1XbEVRVDdxd0pseVVrWjBpbUlacUw0cFBoOEl2LU00MTc5Q0p0b2FNUms3VUZ6ZDBRem1pajhudGFHWGNtUWtTUng5VDBscUtCU1dnWlN1R1ZzTmlLbzhuUUpBUmUxWmVNVXYtc1ZjUS1GMG9QeUJiT2R6QkhYanRuNFUxZEp2NlpKQk9HUENRNWFQVzZsakhoTExHMWdtRXFYOWhkQ2d5Z3o1QXc?oc=5",
+          "published": "Wed, 27 May 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "South Africa's Altron Declares $30M Special Dividend After Profit Jump - Dabafinance",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQ1BMeVJpc1FNczZxbXJ3SHQ2OTVkU0JuRnJidzVDWk91aEVvVDROSk9qTUJ5UzNOblZiNmE2MUd6anlRTXNGc2dLMWh2bEQtSU9ESzZuMXJxRG40SXVmRjhBLUpQekJjOUlXcWY5OU8yaHFzNGxFSFRyc3FXVm4zQkdkT0plS1NSV0E?oc=5",
+          "published": "Thu, 28 May 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Digital Africa launches $58m seed fund for overlooked African tech markets - - Disrupt Africa",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT0lsY2x6bW1FTl9nS2NYUXZLZlp6b0lKNWJEcmJoOGhMblNKc0xWYm0zcVhXY1Ytb1ZpQ0pYSHg1d0tOOVo1VmdRVlpfQW1yS09hWE1mN3BwcENGTEcxQUF4NS1RLUZaSEtlcjFVdGhnbEZialFLd2g5VlhBYlhJRzh6ZjRobDcwQUJkb0UxUnVYSHJreHFEWmVsZnhoYlpCM0lwZ2FQakJVSFdaRFY4eQ?oc=5",
+          "published": "Tue, 19 May 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "EIB Global Commits €40 Million to Boost African Tech Startups Through Speedinvest Fund - TechAfrica News",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObUVBV1ZqbS1kYlY1ZEl1WHJ6aFFmcnRCOXJRbjJpZWtGNzVhOWw1U2pMLW84VlNUVzJqREVqaHVOSTNyRmlUb3p1akFnRVFZemp1ZWkwWDBnOFpVajlpRHpiSlRUMExVUURiaUdmdzZmUHNCMGRMTURaSnZhUk1meTBGWVBMdkV5RW8yUGd5MXJ4SlhYN3NDLUZUTUwyT280a3pkaDJwZzdwOXZMb0Y2T2owNXZLb3JsQW5nZk9NTUhBVGM?oc=5",
+          "published": "Fri, 20 Mar 2026 07:00:00 GMT",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "key": "logistics",
+      "name": "Transport & Logistics",
+      "composite": 76.1,
+      "verdict": "Strong growth market",
+      "opportunity": 66.5,
+      "components": {
+        "structural": 78.0,
+        "momentum": 43.2,
+        "news": 100.0,
+        "failure": 90.0
+      },
+      "avg_growth_3yr": 0.82,
+      "liquidations": {
+        "ytd_total": 11,
+        "same_month_prev_year": 1,
+        "prev_month_total": 5,
+        "month_total": 0,
+        "yoy_change_pct": -100.0
+      },
+      "news_counts": {
+        "positive": 11,
+        "negative": 0,
+        "neutral": 29
+      },
+      "news_signal": 1.0,
+      "headlines": [
+        {
+          "title": "MSC Highlights Expanded Intermodal Solutions Across Africa to Boost Inland Connectivity for Customers - MSC",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaFI4bWEwcVE4NG9TS3BwNjBYYUJQUzgzdV9XaEtVckxVZFE4MFdKTS1YS2RHZFV0QkFKN2MySUhsV2Q3a0lieGQ1RnhBVDdtZ21lNGJZaE1DR0N1NTlIMDR6YnFLSW0zelF5SDJZZzdLTUo4czVYZzB5eHhENWZkM2tlVjN2MTNJNzVlT0d2TTZ5X2JIRFZQYTlWOGZ2czA3YVJPdWc3WFhLSlBa?oc=5",
+          "published": "Wed, 21 Jan 2026 08:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Middle East conflict an opportunity for SA ports – Ramaphosa - Moneyweb",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONXlVYUxzWUZ2b1V6c0gxMEo0dUx1ODJPS1VpM1FUTW9rS2ZsR0ZXeERtX3lRQ3lXYWM0SThZSmdNdlVGTk9qU2tFR25jeFhfVDR1cWdaS2V1Wmh4Ul9qQWhQcGo0SXE0MS1IOXg0cEtuYWhFRUdUUlBhR3NqQ3FZeFlyR0dMR3dTR0lxYzNyYjdCd0xkeTNMd3lXT0JJRFpDZklvYlFVNA?oc=5",
+          "published": "Tue, 17 Mar 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "MSC expands intermodal logistics across Africa - African Review",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeTBITExta1RxSnFJOUtIUy1yNGVNNjlBa0tfTUNYdjdnZGxYcUNFQWtzNGpWRXhCX0YycGNGMlcwQTB1MUpCdjBpWHZvb09JXy1CLUswcHdOdUFScUVrX3Frak9fTGd0QVBuWV96U1BTUnJfSVVpQXBTckJkTzBKTVV6cGh1X29tSUxvRHVyRXpoX19lZjRrV2dn?oc=5",
+          "published": "Tue, 27 Jan 2026 08:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Transportation and Logistics Market Overview - Market Growth Reports",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUGFmbDZCTDljMWxzSHZ5WlFDZ3o2bVNlNWE2THhRRDFfY3hGVzl0MlNTR0prSGdMdU9uR0o3cWh6RWsyWkx2RHB1XzhzVFRWYlFUbUR4ajRVRzJ4OVpNVzlRY0VfVTEzbXVFZTdZVW80RTRzczNtaDdzcnlTXzFyblZYc1dvTC1uQnRRWk15SFRISzk2ZWhLYg?oc=5",
+          "published": "Tue, 13 Jan 2026 08:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Saudi Arabia Opens 1,700-Kilometre Rail Corridor to Jordan - houseofsaud.com",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ldzBaLW1xVGRjQWJlUWdxRzNmR2xKZDAxOGxFN29JVnRqT3hHSHVjaEoyT1NtLWk5S2h0ZkU4YVl5SHJQOGVZbFE5T2JuQUd5SzJ3NlNaTkZQb25DS0NpTmE2NHZ0dFNndERZR3piZXl3Y2RiaGhhODBudjVMQQ?oc=5",
+          "published": "Sat, 28 Mar 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Freight and Logistics Market Size, Share, Growth Report 2035 - Market Research Future",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdFY3Tlg2dUZMV1ZZWjRrYUpWa2RVcUY3WTVUUHZfMzBndlVuWk83dTRKczQ1Q3ZleTlHUDFKTlBhME8zVEwyN2xzWXU1NzAtZVRHZWhMNUtYVnFuMl84RVV4am9oTEE0QU14N1BFLXFtNk9RNDVmMk84WFlLVHFwOEZfZlI?oc=5",
+          "published": "Mon, 06 Apr 2026 07:00:00 GMT",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "key": "fintech",
+      "name": "Financial Services & Fintech",
+      "composite": 72.5,
+      "verdict": "Strong growth market",
+      "opportunity": 63.8,
+      "components": {
+        "structural": 82.0,
+        "momentum": 43.2,
+        "news": 100.0,
+        "failure": 65.2
+      },
+      "avg_growth_3yr": 0.82,
+      "liquidations": {
+        "ytd_total": 145,
+        "same_month_prev_year": 42,
+        "prev_month_total": 24,
+        "month_total": 26,
+        "yoy_change_pct": -38.1
+      },
+      "news_counts": {
+        "positive": 8,
+        "negative": 0,
+        "neutral": 32
+      },
+      "news_signal": 1.0,
+      "headlines": [
+        {
+          "title": "Fintech is booming – but regulation, risk, and trust will decide who wins - Moonstone Information Refinery",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcHNQYXdSMHFDenhicmtoeGMtcmtpMnJiZFlGQzg2RWdWMmt2QXBJdjROWHBJbjVjUktKbzdlRlNZcTVIMjNBQlNJd3ZjNXVNSVZLd2xmMW1OMUF2Zkw4Q0RRRDNrdG1QdU5WTlVTNzNETldrRU52V0NwaWR1WWMxYURiS3hJX1JsbWNXaFN4N2dTUkF4UkZGcUFjUXlsOEU?oc=5",
+          "published": "Thu, 30 Apr 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Chikwama Pay, Paymentology partner to expand WhatsApp-based banking - Connecting Africa",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSW1zdW15US1ZYVVlLXlfZFBIWmdxSWppTlMzbVdJclRYbDBTZVBtcC1oSjBxaHcxZ3ZUTkpIVXZGYVl1ZmtGdnhzSGIwN3J1Rkc4S004THItQkY1T1FBcGRYRUdQSlZXRVhNMlRPT1pDdmZha3JwSU9tWVVOZFpKQlYzTlY4NXMyMzh3LTUxN1ZNb2QyMVpvYnkxSmdINWRZOGczQXVGS0EwYWs?oc=5",
+          "published": "Wed, 11 Mar 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Checker raises $8m for African stablecoin banking infrastructure - Africa Business Communities",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWW1JLU5vSnZ3Q3VVb043NU9kbTAxTUF2dWZoSUUtTWhpb2MxTzlxcHdvSlFIVVZPbFN3R19LYWZReTRiYjd5am1UbUFGNklxbXJzaHZ6alVLak1YUWlIX2RNaTlmdDZMX2N6VWtEcjFmNU1Qc1VWY2lsSWtFZHM2RkRYcldqNC1UeWgtSnFPMERyaDNUVXplSFhVdXllS3FBMEt5WGFxOTRpdURGeTMxQw?oc=5",
+          "published": "Thu, 21 May 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Finovate Global Africa: Stablecoins, Digital Payments, and Funding Infrastructure - Finovate",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRFVBdGZMcHhiUUQ1RUN3emxBX1dyN3NYa2Z1dnVEZlRsSk42eUQzWHBoMU9TakM0UC1DWHB4Vnd3OE9nQlFTVURJcEZXWGRSenZ2M2FXN3pnc0dFV1kza1JxWDlZa0Y3RDhnNVM1Ul9PSHJDWkFHcjlRYjFGbm9zOTVKcDNzdGw5dGhSaWxsbEdEcHJsaGhoOFpkRWdXTW9aeUE?oc=5",
+          "published": "Fri, 27 Mar 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "South African retail giant Pepkor plans bank launch to take on traditional lenders and fintech rivals - Business Insider Africa",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNS192UnRZYTRsZ2hVM2YzRVJFYnkxWHVhdEpFdmpHdWNEVlU0d2FnNW05WjdXMXdqSUdDRFpfbkdzSjFwV3d0SXRwdkN6YklEUGw4RUNMTXc2UzdwbUpBNUFvTzBDNTNkbWtxRTEzT0lKSDBDUVI5SjRmWWlnZ3ZxYXp2LVhKMFlnWUItQjktVzd2dkItXzlvMzI0NlY5TnN3b2FLOFQzZGVYN2dENlpTdzhXRU05dVQ1aTh2amU4UnFqMlY1?oc=5",
+          "published": "Tue, 26 May 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "South Africa Fintech Market: Digital Payments, Financial Inclusion & Growth Outlook - Vocal",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeVBVS1diUGIxTTMwRTNyZkNkRlV0dWJ3czBMTzNIZjN4TnZDT25PRU5wSHpHdUxUOEg1MXg0dkwyYzZzT1ZtRkwxOWVHVnRQUXl6aFZKYmFxdU9oYVUzRFRrS0dyQkRTeVJPMFNYWDFYUlczN2ZycDlialRyazNwTUgxVG8xVzFIbVNuMDYxVjBLNXVaSGlIbU0wN3E4b0IyZFp4bnExel9JM0ZBMU9HTUF3?oc=5",
+          "published": "Mon, 19 Jan 2026 09:38:27 GMT",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "key": "agriculture",
+      "name": "Agriculture & Agro-processing",
+      "composite": 68.1,
+      "verdict": "Healthy / improving",
+      "opportunity": 62.1,
+      "components": {
+        "structural": 74.0,
+        "momentum": 48.8,
+        "news": 100.0,
+        "failure": 50.0
+      },
+      "avg_growth_3yr": 1.38,
+      "liquidations": {
+        "ytd_total": 7,
+        "same_month_prev_year": 1,
+        "prev_month_total": 2,
+        "month_total": 1,
+        "yoy_change_pct": 0.0
+      },
+      "news_counts": {
+        "positive": 11,
+        "negative": 0,
+        "neutral": 29
+      },
+      "news_signal": 1.0,
+      "headlines": [
+        {
+          "title": "Policy certainty, infrastructure key to unlocking agricultural investment - South African Government News Agency",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM19lbTItUEZJRXA5UU9tV2VKVkNGZzk4Z0hKd3ZrMnVYbTgyakFpYTZJX2l2ZEprVzVXUFFQa2ZvR3BfeTFBdURBdHNtSEpWM3Q4LWNBdk1iVTMxbkhrRzdNQnRoSl80ckhEcWtwMVJDdnhnRkZXM0dHcm1JSy03U01OX212OW8xdWU4NkozZEU3NEJqMGlxRVZPMEdXSkZGVzZlcTRzbDdMeURK?oc=5",
+          "published": "Tue, 31 Mar 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "AAMP drives growth but hurdles stall inclusive agriculture - Food For Mzansi",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYThhbmJCYlpkNzhIbTBWRTN3OHI2cTNEMWdXTUxrZjdTeHpVY0h2UmpxOWVHNlZSMEZtdk5RVVZKcTlUeW9XRWUwdUpMSHpLc1BaaWs3aGk0Z2hEalVObzNobEV1THNDek1xaFF5RlJpcnUyMU5CQ3NLdE9CZHpFOXFtclZLTmtpQkE1b3FlOHpCb2xydUE?oc=5",
+          "published": "Tue, 24 Mar 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "South Africa, Italy move to deepen agricultural trade, investment - The Witness | Your compass in the community",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOLXVkV2JQUHBxYWxSOHpiZkNCSlNSMlNhanpQNW02OFVuY19sQXFFMS1nVGtFMmxzTGVpVnIySEZOSjBubERKeG94ZWtLZmRBQ0I5cWVLVE8ydUJueXVveFZFLW5MTkppRmF0X28zZHBfQU5ScHA1elo1N2VnQ1ZDU3pOcUpUUjVFWWxJYU93Q09vUHFBaGZabHNibFQyUlEzRHkxQg?oc=5",
+          "published": "Tue, 09 Jun 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "South Africa, Italy move to deepen agricultural trade and investment partnership - South African Government News Agency",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdW8xMkMxSXZmRXpaNmpDR1hJWnNsOF9ULUJmSm50M1VfLXlZUnUtTVNDalR5NVhTdEk4NGh4NmJySEwzdWV3ODVYYkE3YkZBSnZFNnFxTy1PRndZWmo4XzJrTU1WeDM4Nklhc19Nck83R05HOFZMbTVwNF9DM1o3VGFjR24wQ3VGQnBDRkV4V0FEUWlYZjJXR1pnRWw1T01IWEVHU1NnMFhtcnpXdVhUMlFjTDR6dw?oc=5",
+          "published": "Tue, 09 Jun 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Agricultural growth likely to slow in 2026 - Farmer's Weekly SA",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWEdKWExfbV9iVmpRTkVnVmNMcmdXUFRlaDFRY1NDcFMtSERJNGRFbVp3RXJHeXdiV2NQTTBSZE93ZmxxSUhLVzJGRzloWmlkaFUwUHRLXzJtU3NJZnlJdnF3dVYtcnRuaTdBVGIzNGJlRldwcm82ZUlJOGlRbXg0cHRycF9QaFZ0Q0hxa3h0STMyWHRQUlFjbDFqQmZ6cEU?oc=5",
+          "published": "Sun, 01 Feb 2026 08:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "SA agriculture posts record exports, despite global headwinds - South African Government News Agency",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMHJKVHVGRVpqaWNUZGJZa0xDc2JGc2k5UXRnMUhDalVNbnRVSC1JamsxS2hSUjJFb3d6c3V1M0lrcmtKTlJKNkd5UVZXcmszYW1XRUZlbXl3NWlBWGJBaVdMOVQxM0pkLWFIczlaSDByWWh6cURTN21vR295ckJQeng1c2oxeWJyYllnazJJZDVMRnR0V3pobk0zc05tT096?oc=5",
+          "published": "Thu, 05 Mar 2026 08:00:00 GMT",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "key": "tourism",
+      "name": "Tourism & Hospitality",
+      "composite": 68.0,
+      "verdict": "Healthy / improving",
+      "opportunity": 70.4,
+      "components": {
+        "structural": 76.0,
+        "momentum": 43.2,
+        "news": 89.5,
+        "failure": 63.8
+      },
+      "avg_growth_3yr": 0.82,
+      "liquidations": {
+        "ytd_total": 129,
+        "same_month_prev_year": 29,
+        "prev_month_total": 23,
+        "month_total": 19,
+        "yoy_change_pct": -34.5
+      },
+      "news_counts": {
+        "positive": 17,
+        "negative": 2,
+        "neutral": 21
+      },
+      "news_signal": 0.789,
+      "headlines": [
+        {
+          "title": "Talent crisis in hospitality: Why we need to rethink skills, not just fill jobs - Moneyweb",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbmFScXhBVlVyRlNUSnJ6ZXpGb29OZWlRakhsOU1XS1hMWjg0UWc1LS1XWlFOYW9xNkVfRzZWaVlwVm92anJuRHI0VVZFSzBwQTFoRGhMb3Ruems5OGlUVnN2SHVDZS1vcE4xc3hKU2FPZWY5OEtjU2Y4dkN6bU9hVjJfR1ptQmhyWDFXZkVRVGpwVmRmMjlKSTVlMmpmUUtYMlpYcTBlMXItWF9FbENkeXpOZVJLaFJjTEhBWWFLbWEzSVdoa0E?oc=5",
+          "published": "Sun, 19 Apr 2026 07:00:00 GMT",
+          "tone": "negative"
+        },
+        {
+          "title": "Africa's Travel Indaba opens in Durban - ECR",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9zRG5XNEJnMDNsWW9mckpsc0kwaEdCZ3g3NENWQTZGS1pnc3RZTzdtc2VrSU1KX2dpZEVfQVhncmN0cDhBcE1EQ0FjbFN4U2hZdk8ySjFBVzllREplVF9wcnhkUEFnMHJtbUFBZHRKS01PRDhsTjE4MA?oc=5",
+          "published": "Tue, 12 May 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "South Africa’s tourism sector is booming with tourists seeking authentic experiences - novanews.co.za",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaDRoYkM2T1VxcktDNndMYzNUdG93Q1FmWXZIMnZXUlRuNUxYcFdYSHAxRjlQSHBBOU5vaVp3aWdpSkN4NUxvdkxtWE9wQm80cmQzSy1Qc012RldXakdISlNnTmRQWk1sTUQ5Y0I5SFVObWFNSjZLa1VjQm14aExoWm9VcGhVZFM2cHJsTGh0LWM3NEloYnQwekxXbDZYRC1ZVlpLelhpSzFVWFBB?oc=5",
+          "published": "Fri, 03 Apr 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Hilton to double South African portfolio: massive expansion planned through 2030 - sundayindependent.co.za",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxcHR3QUNINDhYUEVOTEV6bjNPWmpka09mQ1lRUUFZdWdQXzNIQURKdU5ERHNRa2gyeWNFdjhGZzNOVmNma2V6S1RhdXA3bUZuY0hEUWsycTNrMkpidDk5bTlVWU5tVlZaQ3hjNlVUangya1BpRkE?oc=5",
+          "published": "Tue, 30 Jun 2026 12:08:48 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Ekurhuleni showcases tourism and investment potential at World Travel Market Africa - The Citizen",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMG45VGxRa01pbGJyci1QVVMydmVpSWhrbkh4Z1BnMmFId1E0eXVXeEFBeWFTS3FfVktoRUNkMG5YUzhLMmlSYkFRXzVteXZZQXYyN2dEUGRMUHQyLXlXV0E1ay10Uk82YUgxakx3QlprNDg0TW1mQVdsMlF4VE9oektvX3NoR2tyZld2WVZPclctZ3dxTDZ1d3lNb0hGZ1VxQzdMV1NYbk01dkdSaW8zT2g4VGwzc284SVVwYWJFdGFhdk1MbDBNZG5RT0s5Tk1KT0lOdlpuSEdfMi02bC13Tjc3WkdJVy10?oc=5",
+          "published": "Fri, 17 Apr 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Africa’s Travel Indaba boosts Durban economy and drives African tourism growth - Mail & Guardian",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxON1VBQmFHU3NZOG5TYVNmUU5uV3RsMFBPclBHUm5VaTAxclJsTnJZOVo1bXZxNkR5RVRiME02Q1h6OGNJQjZVaDMxLVllSHNuZmYtOGRLZG1NdXBhX3ZlRUlGWWNPbkxvMjMyNGVqVFBRenJPQ2RXTE8xZm1vaXp5bldBUFlOY3RDRnc4M3NYdlR5YnRvOEY3Z1hULTl4bG9CRFdmNVJDVU1OdGY0Slk1ci1aaEVJN2F2Z0F2N2ZKTzJBbms?oc=5",
+          "published": "Wed, 13 May 2026 07:00:00 GMT",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "key": "energy",
+      "name": "Energy & Renewables",
+      "composite": 67.2,
+      "verdict": "Healthy / improving",
+      "opportunity": 76.5,
+      "components": {
+        "structural": 88.0,
+        "momentum": 27.4,
+        "news": 87.5,
+        "failure": 60.0
+      },
+      "avg_growth_3yr": -0.76,
+      "liquidations": {
+        "ytd_total": 0,
+        "same_month_prev_year": 0,
+        "prev_month_total": 0,
+        "month_total": 0,
+        "yoy_change_pct": null
+      },
+      "news_counts": {
+        "positive": 7,
+        "negative": 1,
+        "neutral": 32
+      },
+      "news_signal": 0.75,
+      "headlines": [
+        {
+          "title": "Grid expansion, management critical as South Africa’s electricity sector decentralises - Engineering News",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbFFHb1p5T2lvT1V4S2RqMUhVYWRUNnZJcU5PUUtESzlWM01TQU94N3JIc2pIYnEtNjZXN0k3ZlpSZmtxRVo4MS1zY3U4OVNsMEVwbEd6dU9MYTNyTkcwSXlfRnFlWVZvd2l4N3VqOWIydTBUUUtXOHJTc2J0YkRGWTNyVUtBV2ludy1XV1UwLUlsdXVWeDNvYnZ3VFZ6TVA4MXFITldqaWVmY3U4cm1pWDVsUmN5TWhpZTV5QnBPcE1PczIxQkdIWUNJVzlqMlVieVRn?oc=5",
+          "published": "Fri, 12 Jun 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Green energy features prominently at 2026 investment gathering - Engineering News",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQnFxazcwZ25NOW5mc1VCalozZzdpTzdxY256X01nLWNFVnZNb2pHTFdzNEZ2bmJVRW9fQnVwTG5LV2F2S1BmaHNxV29wQ1A0U2Z0UWEzREFMd0NvSFpkWXZNRTExUzdSM0VKOHRTaEZ5RFMwR216ajNJckVJZ3hNaVRMWXRzQzZsU3dXbEVYVDFHelJRV3FONjdQV1YxbHZVSU9yTEo0c1NRTDVzWkhlN0VSQzhCZw?oc=5",
+          "published": "Wed, 01 Apr 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Mulilo closes financing for 77-MW/308-MWh BESS project in S Africa | Energy Storage News - Renewables Now",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOY3dyQno5XzJJcHZOUW5tUmRVOWhNVXB0c3puY1JBcnh4NXNKM3ZMQTJJMHV4cmxsVVp0am4tenpnaVMzWHEyQzlMdTMyaXBYUG95Y3BKaGxCV2o1b3FCYzlMRE1JUXRDS3UxSzB0LUxiem01TVZBZ3BkTl9fMjZhZ0lvMU5rX2FKdDRXZmdpV3NWVHJxWUV5b1BzWVNwRjVNYkVBeXR5YlA?oc=5",
+          "published": "Thu, 11 Jun 2026 07:00:00 GMT",
+          "tone": "negative"
+        },
+        {
+          "title": "South Africa Set For Record Renewable Energy And Battery Storage Growth In 2026 - SolarQuarter",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdHRreHI0MHpNSjhkbk9FajJnU0VLQ0hab0JoUGNjbXQ3NUhDM2djRnlVeWtjQXpXWDAwUm5EM0NOV2IwMTJSUThGRHZUOF9tMWtnM0VxWkxNYWE4ajdCZXlNNk9uWW5BcjZheHM0Ym10V0c3eGdvTWtaLVpvLXM0WWxIQlhlVnZ1T0lTMWdiUXJ1bDlRUkRiV1hLM2xCN3hpR0cyem1mMWp4bkJ2N2hfbUlHOWRmZWPSAbwBQVVfeXFMTXpPaVNRcFVlZ1FNWXQ3UGgyTHZoSjIwb1RHTmpTNlJRRERsRVJobzlTSkxZWEpIeWY2TTVKeVJVSzZ3TG8xYjlfR1NHVVdIM3YwMU53VzRidnA1ajhmQ3RXZVdKamxaeEE3bnN1a3FMRFB5cWloeW50S0RIb0ROeFlESzlCRzIyUVkzX0NIZkpYZVM1Y2hmUGhEeTVRbkRyZnNpT1hXWF9RSFNDcHprTlVyVm5iUWpLY2ZvVnY?oc=5",
+          "published": "Tue, 05 May 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "H1 Holdings and Revego explore merger to create R13.3bn renewable energy investment platform amid ongoing empowerment funding scrutiny - Green Building Africa",
+          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOajVWSjRicTFrblR3Y0dnN1RfRHp2NldMeDA0VEpyV2NUbEZXaXlqWk9MMURGOFBINXl1eEpoN2FSOFlCVnFZUzhmU1NMeGN5TWhHVXNOX1djZXpucVFubzRHbTFsd1NvSmJtb0N2OFU2anljd2t5QXpITTVwUFdwa3BOdHY3M2Y1VmhpVXY1V0FZaU9JMW44eFZqTWFOY0tBazB0SkhaaHF1WGJ6Sl9HMGdHaXBBOWxwSmdxb0tIWFNQVWhwcWwxdjJiSXVxdy1LOWlXV0ROS21mbXZTbi1zemVma29ndWwyWHAxX1BINnZ0aG1jUU12MUlUakJmQzE2cXFV?oc=5",
+          "published": "Thu, 11 Jun 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "South Africa’s Renewable Energy Shift Opens R161.2 Billion Investment Opportunity Through 2030 - SolarQuarter",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNblZMMF9uSXlDRXlmb0dBVE5UX2tja3ZrTUFwVTBQTTdHTW9zeWlpcUQ0dFY4Tk1Db0F4NDZ6S3ZUbDlVTHRuU2tyVWdqSEhrcE1FMm10R3hacERvZ1pyM2JDbzdNWjZ2VWNyR2pFc3RCOHNpbEdsbE13OXdGRFRVTFZPWXc5cmFUMGpOdVdLZEpyM0hsUVR3YUtudjlfTWJUZFRlejZGcWpGNUZCSHY2XzFudWg3WHFKdTdKZ0JteUx6S2ZzbUxvWW930gHPAUFVX3lxTE55c2NxQkNEeTJIX3EtNnhucDZpdk9iVUNMS245ZFlYbzRLRW1HdFd1QVJHNG1XUHMxZF9NMTdKNlNldlk1N0xFZXdFNzA1cTNDQW1LdmhtMUkwLUY5UjIyTV96Q1ppa3pBYnJrUWlhNlU1cmJHd1JUM1lud3g4TTJCV29IcXp4bmdjWHJQQ0NtUWZFbEtlT3BGdi1CTUVncjBuTmNKbExrazBGOHdoX2tjNWtpWVdhMmo3cy1BV1FHYXVqU2JXYnZRQ0NfZ2xCYw?oc=5",
+          "published": "Tue, 02 Jun 2026 07:00:00 GMT",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "key": "retail",
+      "name": "Retail, Wholesale & E-commerce",
+      "composite": 66.7,
+      "verdict": "Healthy / improving",
+      "opportunity": 65.7,
+      "components": {
+        "structural": 66.0,
+        "momentum": 43.2,
+        "news": 100.0,
+        "failure": 63.8
+      },
+      "avg_growth_3yr": 0.82,
+      "liquidations": {
+        "ytd_total": 129,
+        "same_month_prev_year": 29,
+        "prev_month_total": 23,
+        "month_total": 19,
+        "yoy_change_pct": -34.5
+      },
+      "news_counts": {
+        "positive": 10,
+        "negative": 0,
+        "neutral": 30
+      },
+      "news_signal": 1.0,
+      "headlines": [
+        {
+          "title": "SA’s online holiday shopping surges nearly 50% - ITWeb",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNREFaVkdOMFlYYzNUOXhGai00OFRaOFZPR2paLVhudXdHMTYzS3hJWWhKN05ZVTh0ZndoSzRfWkh6SlEzUDRLYzNYR056QXQyT1FWcHI1dGpSSmtiQnN0SGdkbVRCaGdBWmNVeV9kNUR6YmtFZVp3OVVKcjR4NWVLMGo0NWhHNWdwSXVuMVN5SzVqR3NZcW9KOA?oc=5",
+          "published": "Fri, 23 Jan 2026 08:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "SpendTrend26: South Africans pair a cautious spend recovery with a decisive shift to digital payments - Mynewsdesk",
+          "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQQl9KZ1J3ZVFyN3ZQc1lmZndONUlvQndTdmRXSmdrNVBUMHk1eG96Uzlxc19oY2hUZkRkMV9DemFOV1M0X0xYRnVHSEdzODdPdFdBWkpYSWpHSkpIZm1QVHZUeXRQWjlteE9MbUs0T005QnZtZnBpTGJaWS1YZGhJN3ZJRnZHZ0l5dGRQdk5teDBuQ0dBa1RIdUlYLVNJLTk5cVVzanZRYzlaQ3p4RlZoandYamNhT2stakJzNlRwVmQwMTV0UGFQSWNBamdzOTBwVi1KeU9XX24yTmJ0UWl1XzVmYjBaR08telRURzJBd2RBOWZfNUZHY3lINDN1X1VrZ3JJb1N3?oc=5",
+          "published": "Thu, 23 Apr 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Study warns that online grocery boom could leave smaller retailers behind - NWU",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNE1vMkg0R3VnU0U4RE4wWXVjZUtpYnlILVNNOUkwRVZMc29zM0lvVVk1cmVETUxmeHVqbURRV2puUnNWVzU3c3h6Q280b1FaLU1xS1JkRV9mR3huc1ZRTUZlQUpvZHlRZFBRVnYtZkJ0cFVfV1NJQkswbzA2VGJ1dlhWa2FyelBDTzhqZFRweWotT2po?oc=5",
+          "published": "Tue, 26 May 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Mobile-first shopping dominates as SA's e-commerce surges - Bizcommunity",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTE1iQTBsSzRWc2dPejljUGZfX2FFVTlzVXBpaGlnZE1ZeWhMNzUycnJ5X3QwNGR6bmNfZF9qamVZdUlKY0E3M2NuR2RaNURVWlpQWFE1cGo5dmpzNUMwX1NLZmZKTDFUVGxKLS0xNzF6c3RyZFZFTjhaM3laTWRESzFxR2duM2MyM1VZQzkwSVJBLXVJaFVaV2xFNllCTWpWZFE?oc=5",
+          "published": "Thu, 29 Jan 2026 08:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "South Africa Social Commerce Market: Omnichannel Retail, Social Integration & Growth Outlook - Vocal",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZ19Fb0dnSUFBa0x0QW5qaWdLUThWNU5lYzg1TFRDU1FpTE5FbXdXM3Q3a2s1Z2l3c1Bwd2FqN0tpa2N3V3gwRmZFQWxiV3ZhdmI4Z2NMV1VON0I3aDY2aXVNN0EzY2NobzI5LUlCU1lVUHhZY0xYeFNMWEloOElxUExFX3ZhdDZGeEd0OVdEX0dxeUNRa0Z3OFJjcUJDV2NwSjdISXBocHRaOUw1Nk9JTG50aGh2RlQ5aW0zMEJB?oc=5",
+          "published": "Fri, 06 Feb 2026 06:20:19 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Should investors shop while retail stocks drop? - Financial Mail",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMEx5NjJGcE8xM3hCTlJWczhoa3RCYi1NU1lyMzUxVG45SVh2MmVEUlh4T2l5Q29vSngwaGZPMWtjTVhxX0t0Wm9JX2ktN1pibl81QTMxTURNSzJGZUViVW5CdWVTNFE2ZDdlaFNvYUNkSE0xb3ZjR05FYVphYjA4Y0hCSVRRTDNCZGFSOWtveFZLeU84TVBWNElhUEt0UjdyTld2U0t4Q3lHdjJBUWNoYmx3?oc=5",
+          "published": "Thu, 16 Apr 2026 07:00:00 GMT",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "key": "bpo",
+      "name": "BPO & Global Business Services",
+      "composite": 65.2,
+      "verdict": "Healthy / improving",
+      "opportunity": 71.2,
+      "components": {
+        "structural": 80.0,
+        "momentum": 43.2,
+        "news": 66.7,
+        "failure": 65.2
+      },
+      "avg_growth_3yr": 0.82,
+      "liquidations": {
+        "ytd_total": 145,
+        "same_month_prev_year": 42,
+        "prev_month_total": 24,
+        "month_total": 26,
+        "yoy_change_pct": -38.1
+      },
+      "news_counts": {
+        "positive": 4,
+        "negative": 2,
+        "neutral": 13
+      },
+      "news_signal": 0.333,
+      "headlines": [
+        {
+          "title": "More jobs on horizon as BPO sector attracts investment - ITWeb",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOd3BWSlBIWEJFVENHVlRmNmpqcXliZndtT1kxRTg0cWE3RUJwVUlaYTRjZnE1ZXotZXdLWFdWUUExdEgzQ0dpRlhfZG5zWHAyeWRMWEhyNC1YTTRObDZqY1NEdVJCZGJiT3NNWl9RSXVVbnpHWE5lVEY5M1ZSTmJkMVgxUDdCU0xoMjJkWVZJMzBPaUFNWnhqc3VWcmx5cWJNUDJ6Si1n?oc=5",
+          "published": "Wed, 01 Apr 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "SA’s call centre economy surges, creating 8,000 jobs in three months - TimesLIVE",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNejctVUtUVVZFYlpGS3E3bmJDa0hNUG5hTklVem8yUDY5aDNrdVVpU19tNzdyU1ptRVJVMHEzU1JZU2RwT1pIOTRPdTZsMWNtem45eFcyNUttZWVHWEMzMjRzTXc4ZHU5bFpnZnBUZjA3c2x3aVI5SVFLTUZNNklDNnhMV2t2Y2g5UXp0a1gwRldEOFVNc3BpcGp3aE9ad3hFakstYmQ2aTR0bFg1eGVzT0ZyeDlFOFE2THg2Zm5xTFc?oc=5",
+          "published": "Thu, 09 Apr 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "The job crisis in Cape Town: Youth unemployment laid bare at Athlone Stadium - Cape Times",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZVgxcWFUcFMySVBZZjNUMlVpdUNwblZYM2xOZFUxenRMZjFOYTI1dXRONnR5NVh5em9jNmdqYnZRbXFhcVd4QklNaGRFRGt6NzdrR29UcGhqbUtQOUtLTzZaMmE2RlRqbjNIcnFHd1h6a1ktM3h4V1BLOTVqSi1iNUc1dC1FMXdhbkROWTZ1STkyMzROZTdPa3YwN2VQQi1Zb2x6OUFxazBaZC1DTHVDUU0yeFZteE5aajlJ?oc=5",
+          "published": "Sun, 19 Apr 2026 07:00:00 GMT",
+          "tone": "negative"
+        },
+        {
+          "title": "25 000 Young Capetonians Turn Up For 1 000 Jobs: The Athlone Stadium Scene Shows Just How Brutal The Youth Unemployment Crisis Is - 2oceansvibe News",
+          "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPVlY0RlBrNHVwYWZ6Zkk5R1N3THVWNHkxUDFKbTZ0RG94YThmTlhiY1g5Ty0zajNfVUxfbnllVW9DSVh3SE1sNVZsR0V0UXhMN1pzSGZMcUdRWTZPcmxNMy02S2RLOUpOM3dRMHZLbjBpajdKdEs2b001ZExwdzJ3MzF0S3dUVUFEazMxdVB6V083LWFwSEVHMWlrOEJxRk9EMVNvclVWUzhOQXhSOXB4RmZ6akJvLTNHVVFNSjNac3lSRUdVVDV1OVZ3U3VNVE9pWG1QZDF4dFFRano5WEFFWUVRc04yNGg0aXBqS3BzcjNzMHkxOU5SSjdvTnhxWC1vR01tNGc4SQ?oc=5",
+          "published": "Mon, 20 Apr 2026 07:00:00 GMT",
+          "tone": "negative"
+        },
+        {
+          "title": "South Africa attracts BPO investment, creates 2,600 new jobs - Outsource Accelerator",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CNlZ5dFRTSlkwbHhUNUtQRFZ6bnZ1SHdwMHM4RV8tMkstZlRCeV9adzlURUJ5R2psWG5fRUFBSGhYSzRiLUlHM3NSU2t0TzMwNV9JVEF5M3hhQQ?oc=5",
+          "published": "Wed, 08 Apr 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "New Cape Town call centre readies for hiring spree - ITWeb",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYldSLWtPbTR5X2tRUUxmdl9HZGw0X0d2TzBBVFFkbjBTSGNTMnhETUZ1YzBhS0tudi1ybnRiS3dydUh5dElOMk5xc21jZ3E3dERCaF90SEhsV3lFYXBpM01Objlzal9tRGJycDBqaHg3cEhlUncxM0hZNGNvVmkyOTRuTmk2elh0Sll2VlFYV0dyQ1RMbHVGXzNqamlzbDNR?oc=5",
+          "published": "Wed, 11 Feb 2026 08:00:00 GMT",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "key": "realestate",
+      "name": "Real Estate & Property Services",
+      "composite": 62.0,
+      "verdict": "Healthy / improving",
+      "opportunity": 54.8,
+      "components": {
+        "structural": 60.0,
+        "momentum": 43.2,
+        "news": 85.7,
+        "failure": 65.2
+      },
+      "avg_growth_3yr": 0.82,
+      "liquidations": {
+        "ytd_total": 145,
+        "same_month_prev_year": 42,
+        "prev_month_total": 24,
+        "month_total": 26,
+        "yoy_change_pct": -38.1
+      },
+      "news_counts": {
+        "positive": 12,
+        "negative": 2,
+        "neutral": 26
+      },
+      "news_signal": 0.714,
+      "headlines": [
+        {
+          "title": "South Africa’s property market is fighting to go from zero to hero - Daily Investor",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQV0dzZldiNE4yRzNQd2ZfUkZhS2lFcHJTLWw3TG8wVWpua3JjTEpDODEyX1lFYUpCV05CMzk2SXBYTmlzM3BJLTdlOEp5Tnpua3pIS0liSkxUWGoyUzRRelVpejg1aGgyX2sycUZJYm9pMDl3YXFHMzVCb2pwanVNbDh4ei1qWm5zOURJWThXVGItYVhhMXN2YXgybjJUY2d6aXhMQWxhb0ZaYUdZ?oc=5",
+          "published": "Sat, 14 Mar 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "SA property market turns defensive as investors eye resilient assets - Business Day",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVXFzMEJaVXlSMTBpUnFnMFBhWnVKTnVJNEQ2SjFNYW5jeHRTZVdqYjdjMHRiVTRod0N3c19mVFRmQlRwYjEyM29ybVY1WXdOdUVKdlAyYzJLQTJ5T29TaE9tMlFfdEMwWTQ0UWhLN1g2dC1aRkZVd3BzNzViRnZtcHdlU0REVEJMRlRJaG1LU1VUeU9XUTRGQWJKMXVmNk5yS3dZZW9wdVdGTG1tUzV5LVRlZV94S2RqNFdaSA?oc=5",
+          "published": "Thu, 15 Jan 2026 08:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "South Africa investment report 2025 /2026 - JLL",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9UcThWWnpiZTNfZzBmWktCb25heGFwNTBLODBfWEhxWF80cXpQMWxla0pyWUgyNVpQMlU0UHRvOTlaMUw5SHJmTkpsbU9hN2ZZOGtBNktJUVFMalRYYUNwUlhINmU2VU1ldnZyWnpwTjkxQzg?oc=5",
+          "published": "Mon, 23 Mar 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "South Africa's property boom returns but not all regions are winning - IOL",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZmFMdVFudHNWSWV2T3pkbUYwdzgxd1NQcm5ZajJsOW1YN0cwTzd3SlZ3dURfa2RCV0VsTnozbFdtdnRCRHNzZ1pTTE5QOUl6OEZrTlBCRWdCUlJ6dDZkdWJiTVZMRlFCMVZwVE92X2FvbTVaWUVfV3lXX3ZSbGFrYld6RVhtMm1rQ3Y1dGpEamk0N3c3ajlxWXhMMEVob0k4a1RvS1VuT2ZUZGJZX3hKWDFDdXA0dw?oc=5",
+          "published": "Sat, 21 Mar 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Understanding the current landscape of South African property investment - IOL",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVHdnTEJnekYtMkxIcHBEbHByaDJuX0lLcDJRY1ZYenJ5dUIxbDd5S2hmVnJidEFWd3E1MFNOdEc5UzZNaFNLMkhsallISTI3cDZBYzdLZUk4em40UWdMOTRJaE80UDVpTnZNUDdwTGRjTkVhY0IyemV5dlZYNGJRMHpDc0pLNnFhS1d1RUNNYU0xQWVNbXdZR0lLbWVST0otZlg1d2lvR2JqeUc3c1BTeUl1dUhVNl9yTjNrbkpNckl5RTVtRnFEdTZCUElJVC1HNVRNaQ?oc=5",
+          "published": "Sat, 14 Mar 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Cape Town property prices are hitting record highs as affordability reaches a breaking point - IOL",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRVNtRlBWZTFlWXNKMS14RlFjYWJoQzExLUpEUEJNOEt4VE1ITDRQUGlvSUY4dUhLM01MZjgwYV9rTDJfNUlvanB4aU5HbGYyWHhPaXRfUXdpenVvWUVabUQzM2otSUVIRXM2bnlXeDI2OHM4RkUyRVJrcGpJeDgxdEdCd1JUa2pHdHZaejdSM2tLSmxBN1V1QlVjR3NGY1NtNXVyQkpMRWVnNzA3cWktQndJY2lOUmdZSDRVelNIaUxRMloxT0RTRTVqS2VUVnBXbGFyVlVSZw?oc=5",
+          "published": "Thu, 30 Apr 2026 07:00:00 GMT",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "key": "healthcare",
+      "name": "Healthcare & Wellness",
+      "composite": 59.6,
+      "verdict": "Stable but competitive",
+      "opportunity": 63.6,
+      "components": {
+        "structural": 79.0,
+        "momentum": 43.2,
+        "news": 55.5,
+        "failure": 50.0
+      },
+      "avg_growth_3yr": 0.82,
+      "liquidations": {
+        "ytd_total": 36,
+        "same_month_prev_year": 4,
+        "prev_month_total": 12,
+        "month_total": 4,
+        "yoy_change_pct": 0.0
+      },
+      "news_counts": {
+        "positive": 5,
+        "negative": 4,
+        "neutral": 30
+      },
+      "news_signal": 0.111,
+      "headlines": [
+        {
+          "title": "NHI uncertainty reshapes healthcare investment as access and affordability pressures intensify in SA - Daily Maverick",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPejNWNTEtY2JxRXJiSnRKaVpwQjFyd2x3QVhuTEgtNURidlB1VG9EMmRiQkxpLXVTSG00QzVLQWtuN1ltX3dYVlBZRmNPbncySlo1UW9nUWpNaENfclZKZUlVSUNtZUpGS3JlajlCVHRRLWZNQUJZMFJxbjBHbzF4TjVCQldYWl9yUjdRRU95eEVmdmEyTmlhaGRkdktXdWExRldXTE81TmRESzc3Y2poRi1ZXzY0MDJFU0hlQjlxOE9MT3lmWm55RVVIb0FaOFpvVGRfejVubmx5UlpublpiWW15YjBwVkE?oc=5",
+          "published": "Sun, 24 May 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Private hospitals must help fix SA’s healthcare crisis, says Busamed CEO - IOL",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQckxqNnZrV2hoSkxZdjRZcFY5a0hoRGVGQ2laQ2JidFJUbnNWcWMxYmViZ2lCSVRGSTFNOUVzVkV6YUtFMEhKTW9JY011aGNUNjd4TEd4c1lndHc3SEVXLXdLM2I2UEg1ZUJtbmFGRmRCYXU4akJIOUpwSU10THpoalZTODB0OVhCRGhtWk9PTm55c3VfN05XeFBBaTUyY0NyeXhvSncxSjV2bVRhMS11NnRfOA?oc=5",
+          "published": "Thu, 14 May 2026 07:00:00 GMT",
+          "tone": "negative"
+        },
+        {
+          "title": "NHI will chase taxpayers, including doctors, out of South Africa - Daily Investor",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUUItdlRnSHJQSjFucnRNZUdINWhmQkdjT2Z4UHc4TU5peGlUZ3dtOEV2TlRNSUw2bk1nR1JSTVlncEdXWndvSjdhZk9qUUVmc2xIU1hDNlg1UUZvQnRYYXZjdkgxNS02cDBoNi1wOHJpZVM3X3BzMkNzVjBpTUlvVjdtZ2gwb2NwR3ZOTEZDRDRrcC10MEtDRWdsSnRRR2VESGM3QWpUSlMyQVR2X2c?oc=5",
+          "published": "Tue, 24 Feb 2026 08:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Profiting from sickness: Medical aid betrayal and the NHI gamble - Daily Maverick",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPM2VBM2ZUa0VDNER1UFNFbU16dElPdWttOHJ0SkFyQ1Z1RkdVOEh2TmF2eF9acnRMd2VmZ25PbklMX25UaTNCMF8zVUpWZ25iZ1Rkc0xmSnNjcU01Z1RKSEVrOGxDRHg2VjNWYzFPd2RfTlE5M29qVk9icmE2OHRhcVczXy1yWEZkY2lkaFVIcVh5clNhYW9QVUN5ZWtDOVdVeUZNaDVGcUpHUWRqRHFPdFctNDZoWFZpVW5r?oc=5",
+          "published": "Wed, 11 Feb 2026 08:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Major warning about the NHI is coming true - businesstech.co.za",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQXE3UHJUZ3drNjVjT290WGF4WEN5aTUyYUptZEJka2htZlI0ZVMwdU84UXNxcFNCT2NfazRSX3ZZZFMxY1hsTko5NkIzQURnWkprTGoxcnk2dVpBbGJoUkVuZnU2MjBXMVg2TGFQTmUxeUk5ek5NLWhiZUpmWjU5MWRia2RfdFFzQWJQZzhHb0dPcnFJdFJLbHE1WXhDTFFq?oc=5",
+          "published": "Wed, 11 Feb 2026 08:00:00 GMT",
+          "tone": "negative"
+        },
+        {
+          "title": "Youth unemployment deepens SA’s medical aid crisis - Moneyweb",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRFJ1ay11VTJGX2k1U0s1NzdLUFJqTmVUSEZpYmZvVTVZYWVTZmVXXzZRcEZYaVRacWYwUW5wUTN5ZTJ5V3AzVHlWR29pMWp4NThPam9xXy1MaWFkc0tPa2tlMGxEb2ZkMmxpTkFabWhYSklNUVVGMEJmNkUtekJjUjBzWGlFaE43cmJHR0lSTkNaVjRKUEdCcDZnQlFRU1hoY3FRS2llbDRONUgwZlBldw?oc=5",
+          "published": "Mon, 18 May 2026 07:00:00 GMT",
+          "tone": "negative"
+        }
+      ]
+    },
+    {
+      "key": "manufacturing",
+      "name": "Manufacturing",
+      "composite": 56.7,
+      "verdict": "Stable but competitive",
+      "opportunity": 50.0,
+      "components": {
+        "structural": 58.0,
+        "momentum": 31.1,
+        "news": 69.2,
+        "failure": 74.0
+      },
+      "avg_growth_3yr": -0.39,
+      "liquidations": {
+        "ytd_total": 10,
+        "same_month_prev_year": 5,
+        "prev_month_total": 4,
+        "month_total": 2,
+        "yoy_change_pct": -60.0
+      },
+      "news_counts": {
+        "positive": 9,
+        "negative": 4,
+        "neutral": 27
+      },
+      "news_signal": 0.385,
+      "headlines": [
+        {
+          "title": "SAFTU ON THE DECLINE OF MANUFACTURING PRODUCTION AND THE COLLAPSE OF SOUTH AFRICA’S INDUSTRIAL BASE. - South African Federation of Trade Unions – SAFTU",
+          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1HSGx2MDM2aFM4NkNtcmZqQmpDMXdVeG9vMW1WRHhsVE5lSWdoNUNhVkxjV1pXcVd1MjJFTUJFa3JBbF90eVhWXzN3?oc=5",
+          "published": "Thu, 08 Jan 2026 08:00:00 GMT",
+          "tone": "negative"
+        },
+        {
+          "title": "Factory output shrinks 2.9% as manufacturing slump deepens - Business Day",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUlhnQVBQdUpPMFFPRzRkTm5SNFdycU5tZzZTUWJYaFVuOWp6b1RCelRmd1o2Ul9zdzA3bDA1YXFaeEtsT3R4aHh5Q2Fndjk1THdZUUZ2TmdLYk9HYzJobl9pVWloMmtHS0dDWFFrZU1VUUIyc0t2TEhubXZxWHdyMk9EZjdjS1VxVS1yOF81d3BoR1o4YmR0RUl2Q3NyQV90dkpXX3NGcFdjUQ?oc=5",
+          "published": "Thu, 11 Jun 2026 07:00:00 GMT",
+          "tone": "negative"
+        },
+        {
+          "title": "Factory floor: the manufacturing recovery that may never be - Currency News",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNUN4UFJrZnhEQnBWbHA4ZVpnbFJpdjQ3UlBOY2t1cGxUNW1saHoxUDNpNzVocDc1czd1bHlDdDdyNXBtU1RzRDN4S0lfYmhzeFc4VWRMUnlVb01jZzFucjZWMU5sb2VFVGszY01xd3d3STVBX3F6SUFTYmpxNDktamREcGdMNTVLaGdUWnFVYw?oc=5",
+          "published": "Thu, 14 May 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "What the Newcastle sweatshop crisis reveals about manufacturing in SA - Daily Maverick",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeDlfcEpKRldOdzRiRlZ0dDRUTVd1b2hDLVRNWVdYd2Q2N2dMbTNPbHlqbDFicUlFbVpYajJYQV9wQllFNDgtanFIU3NNUi1iRS1ESTVLXzZuNzd2bFYweUl0STlfRU56QWU4Y0twVmJKTWd2UUVWbWgzeGNwMGZoTFRTTUo3VzBvQy1OUFE1cFVwU0Fxa0hsNTRRX2FhUGFKNThEX0ZpUlJPMHM0N2lRVGFjMGxMVVp4T0hHczRxVk91aEk?oc=5",
+          "published": "Thu, 26 Mar 2026 07:00:00 GMT",
+          "tone": "negative"
+        },
+        {
+          "title": "Centurion Systems anchors gate motor production in South Africa as global demand grows - Engineering News",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPem12Xy1DeVdtRTh1VEVJTVhwbXU1WHVKd0ZJZnBCai1oZjdvakd0aklmU215Q19JMHc4OWdrLUE1M215Q3c1eTJWcGNpc3E5WVVyQnk3UHZyNVZsMDlnNFl6VzR4RlAxYWpDcWZlVW1jelhMZEtnZW1tc3pPbTdoeXVCbEtlMVZTM201b3RzZFlrdUFWVzBTcEt6dElRVWlzRDJ4dDNSU1NyQ3EtdTR6aWk1M0E1b0puOXJwNm9QeGlYSmdXUVQwcHRBMnJEUHlDcTgzTHpR?oc=5",
+          "published": "Thu, 15 Jan 2026 08:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Manufacturing activity slumps in December - eNCA",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5EMDUteUJYTHpTeTgzdlRFVzZubUk3UkpRRGRyX0tjUmRNY011Uk5Zc2VKUTNIZUlyQUV6b1hCSEdvdnpXcEhnMEN5RnVFWXR6U2JQbERJNGFzWERHaktVMlhSZUxaS2Nib3VLVjRnaXB0bFpZS1BR?oc=5",
+          "published": "Fri, 13 Feb 2026 08:00:00 GMT",
+          "tone": "negative"
+        }
+      ]
+    },
+    {
+      "key": "construction",
+      "name": "Construction & Infrastructure",
+      "composite": 56.0,
+      "verdict": "Stable but competitive",
+      "opportunity": 53.2,
+      "components": {
+        "structural": 55.0,
+        "momentum": 27.4,
+        "news": 87.5,
+        "failure": 62.0
+      },
+      "avg_growth_3yr": -0.76,
+      "liquidations": {
+        "ytd_total": 30,
+        "same_month_prev_year": 10,
+        "prev_month_total": 6,
+        "month_total": 7,
+        "yoy_change_pct": -30.0
+      },
+      "news_counts": {
+        "positive": 7,
+        "negative": 1,
+        "neutral": 32
+      },
+      "news_signal": 0.75,
+      "headlines": [
+        {
+          "title": "Macpherson welcomes $1bil investment unlocked through Infrastructure SA - South African Government News Agency",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRGc4dVIzTW5qU2FBZ29SelFhV2hRZFVMRnUtMkhsaXgxang3LVVkR3JOUUdzRlVEeVlnM0JhU1RfZmJHQ1dvREdEdW1HSTNSbTVpRkdvZWxPV3lNVmFaYVJPSUdrTjhhT19rY2pTWGdXSl96RFNNWGlYcmlrM2dUMXZwRzVSNEZWWnE3MkpWblZ3QllhY2dzSWcwbS02RjRYTXdfUDU1UVB3UDU2V0E?oc=5",
+          "published": "Tue, 07 Apr 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Infrastructure South Africa raises alarm over high level of tender cancellations - Engineering News",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaVBkaEVPNlcyVGxrd18wcXZnRVo4RlFTUE1qbFZsUDdRRUF0UkgzNEJtTE00eHE1WnU5R25YSFhvZkNhSkZLTTdMaHhrZi04M0h1eFIyam5BYWcyQ2FPZl9DajZMeWRlRy1HZ2J4QU9MTFVGTHhZU3k3ZHY4VmRibmU2eS1yREx1RFpXSnppQU4wclRYdVpVR1VCbUhfa1U3OWd6cElpTmRybU5GTEQ2czVaWlV6ZExEdW5ocy10WkMzUXQtY181elNHblNjUQ?oc=5",
+          "published": "Tue, 23 Jun 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Construction delays in South Africa are early warnings of a system under strain - Engineering News",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMUN6V25CUHZwei0ta1l2TWZwaUJKQ3M0bG9zaEdqTGxaSGhndmI5RkYzdU5wRTJjaHZjZ0QxUTJwSndVZXRiZnZOMjlRbnF5aVdiNUxLelk0MDZubHZhVk80M25ZWXFZbWlhaGRoS1owZEgyeHB0M0NzTS1CSVhOb1NCVDhrWW5TQThjWGdaMnpzZW8zeTYxdHZmRnVqWUk0TE9HaDA2bnJ0UDMzckFjeE82OUtUWlZmM1pwME1aTnBZWWU5NEU2Yk13?oc=5",
+          "published": "Thu, 12 Mar 2026 07:00:00 GMT",
+          "tone": "negative"
+        },
+        {
+          "title": "DPWI expands artisan pipeline to drive infrastructure development - South African Government News Agency",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUFlMcVNuTFFiZk14d01vSkI5VHROVzFMU2tfVGZTY1dMa25WMWJGZU9nSjd5M2pqRGJrTGxxdUhsUEktVHZkZWtNaUZOa3BHUmlkUzZlV2dZN1Q1N0twR08yQnNVMkxhbjcwWC1BSlFodjVjTENQUmt4WkszdVQtd0hqVndlZXhIXzZBbUM2dzE2SW0yLTdRV3Vpd1ZPZjN6NUNF?oc=5",
+          "published": "Fri, 26 Jun 2026 08:05:32 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Unlocking funding for construction SMEs: A critical need - IOL",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQejdJLXFCcXFCZVB1TFFCMFhKNEh1Q2UtTVlUZE11NDBzS0U0VEIwUVpEYVM2UEQ4WUgwRUd3N3V5MGNsWk82MVRUeWZvSFBMcERYSXhVb202RGE4UFBhNFJubEVBU1I5cEd2RFU0dm1pdHR0aXJ4ZC1ySEJHSjNsTEVmaVdYN040dzA0X2ZZTDg3LTM2T3FxM09VOHZkWTU0RG1CYXlHY1pqekRL?oc=5",
+          "published": "Sat, 20 Jun 2026 22:18:33 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "AfriSam builds resilience while awaiting stronger infrastructure investment - Mining Review Africa",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNTNWUy1DaXltcFE5R284YUpKOW42RUphYnJTcEV0TnhmYndhYzNWdmxDdnUzUWtnVi1WVmJLSzJ3N0prZ0pmdXV4WW9jODM4S2dLN0RRTlFoLTRHYVljRHlDZjMzQXFVUTA0ZzlVU29vVlJQMlB4UG9oVG56MjVSYW1FWkRLR0FGTkRiM0VrVkpMd0hFNzloOGNDNVBmTl9maFBnNjFCQUdfaHdwa2NF0gG3AUFVX3lxTE9nelBhUmlwYS03dUJXSjlCMl9ycnl5TFNWaV9NTzQ5WF9BSXVtVE9rYmhUcFVhRWg3VWM3NVBULWgzZ0N5WTRoQVBuQjBrUFY0WWRXS0pZU1VfcW9PdFFZdGV3VGV6b0g0WTRaOXo3MmJVNWZIUC1halJzRWppcktfa2l1cExEWnV1UXdYVGQ2aHRFSFdna1pMaC0wc2tLNXBYSTdFVE9xUVRpSXpCZUhNendqaEZIZw?oc=5",
+          "published": "Tue, 05 May 2026 07:00:00 GMT",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "key": "mining",
+      "name": "Mining & Quarrying",
+      "composite": 52.9,
+      "verdict": "Stable but competitive",
+      "opportunity": 32.8,
+      "components": {
+        "structural": 45.0,
+        "momentum": 27.4,
+        "news": 91.7,
+        "failure": 60.0
+      },
+      "avg_growth_3yr": -0.76,
+      "liquidations": {
+        "ytd_total": 2,
+        "same_month_prev_year": 0,
+        "prev_month_total": 0,
+        "month_total": 1,
+        "yoy_change_pct": null
+      },
+      "news_counts": {
+        "positive": 11,
+        "negative": 1,
+        "neutral": 28
+      },
+      "news_signal": 0.833,
+      "headlines": [
+        {
+          "title": "Mining industry rebounds to 2-year high amid uneven recovery - businessreport.co.za",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeW41LXpQelFpVUltV3lyRm8wZWtnWmZMa2xoeF9qdDhuZVVYN1NvenZ5V21wVmpFLWwtaXRTYW1rR0s0NW9BQzVqSjVOX2FNdERWQ185TVUyZ2Z5T0Zjd1ZRUl8wb284ZVhjZUlqYlhNWHVyTy13MGstZWhJdlJLRmYtdWlmamxzcWZLQ1doOUwycGphMGpVNUFuNnNnWlRfblUwem9ZcmQ1OXVHU0E?oc=5",
+          "published": "Wed, 15 Apr 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "SA’s mining output declines for first time in nine months - Business Day",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOGlRYjBhNF9FbFBSaXAtbEYyTUloOTdkZV9rZFl0X19Qd25OaURuNExWdlVVa25jWHkwR3kzSXQtX2puTy1CWWJsNU5OeWU5WnA1ZGlPNW02b1NYaWxpT01wWmI3dVhZRDB1Q3M0elQ4YlpqTUwxaTRMSkN2YWxJUXUyLUhIMURrMWJEQnY4bWRpWDdDbmFvWFdpZlJySmVWUGt1ZVpRMA?oc=5",
+          "published": "Tue, 20 Jan 2026 08:00:00 GMT",
+          "tone": "negative"
+        },
+        {
+          "title": "CLARENCE TSHITEREKE | Nuanced SA mining recovery amid structural constraints - Business Day",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQnRNU3NpV1owaHQwVk0xUGdaeUNfNlRhOExKYW5JOUY4b3F3NDU4LU52YWVsYUVIYVZyTm10NXJCZDEyYmdiOTBYZXlDRWVnZHRvYU9nSjlyN3g5ckozQTV3UXpaM3pmc1k1RWUwN3VJQ3RnVTI4VFZLRmg0a3IyeThleF9vV2xOY1FEWTJxd210UHRSUjlsUldpZE9JRDlhcERpaVk2cllMazMwc18wM0hHdkVxOHlFVmxSVzQ3TmhvZw?oc=5",
+          "published": "Tue, 16 Jun 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Platinum to remain in deficit this year, while palladium, rhodium may record surpluses – Johnson Matthey - Mining Weekly",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYnhhX3k1TjBEU3E0dzhPNUhrUFhUTk1uX0xNbDBvWVlDWWRTalY5R0Y4YnQ1OF9YcUVyUjVDdzZReVBsOFplc3M5OWxWVGRZT0VXR1BFVl8zcjdtc1NJVU5IMGdUSkxvTzlvT2lXdENfQmxmNkNsUGMwMDlweXRndFJvS2JxM3lkbHpNOHp4N0hMbDhQeWoxM2pFVHZ5Vzg2MkRKNUdXb09oazNvS1h6bHpsZVZXdkdQSlJwNTFNOEt5SXZwdXptYWZOVl95THp6eW5jX3RBbHBIM195ZllGcw?oc=5",
+          "published": "Thu, 14 May 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Zambia State investment firm forms gold mining joint venture - Mining Weekly",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOXRqYTVlZVR0SmxBWFg4aFdtMjZMR0JXa0JYb0hoOGhNVnB6enJiRXBxY2pmYnRHRHcwNnl2SmJ5VUNhN1UxZGNlSW95WHpwNUp1V1lNR0s5S1pPQnJiUnUtWXhnbHBGZTZUQlVjVmpWczFMT0d5aG9Zem1TdXp6Z1RVbGdBamJfeEcxVDdfcW1TWnd5SnNaa1JLdDVycFBXaTRpbWVLaFZZYnBW?oc=5",
+          "published": "Tue, 19 May 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "South African mining industry presenting opportunities, growing pump demand - Engineering News",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdWRxejJJOUI4bnJZdGtxUkVwOWZqdXJmZzdwd2JfNnU1WEdDMUNvcmZwN2hzXzJRTklvcWg2SVlMdkRscE5ZRzR0T2JGM3F2eWpUOWZTN0RoV2RQUlBnZmZqQWhKcUd5cENDdkFUa2Y5cWhDc2ZNdUlMaExLUXpfalVEM2ZsYlVMcFUzWmNXak5wOTVMTmloWUczM3FWN1BPaWx4TFlocm1LWDRWcFdrNnFDUlZXMHhGWGU1UVRTMmlVenhaTEE?oc=5",
+          "published": "Fri, 20 Mar 2026 07:00:00 GMT",
+          "tone": "positive"
+        }
+      ]
+    }
+  ]
+}
