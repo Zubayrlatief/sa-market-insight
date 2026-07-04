@@ -383,9 +383,9 @@
           "tone": "positive"
         },
         {
-          "title": "Digital Africa launches $58m seed fund for overlooked African tech markets - - Disrupt Africa",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT0lsY2x6bW1FTl9nS2NYUXZLZlp6b0lKNWJEcmJoOGhMblNKc0xWYm0zcVhXY1Ytb1ZpQ0pYSHg1d0tOOVo1VmdRVlpfQW1yS09hWE1mN3BwcENGTEcxQUF4NS1RLUZaSEtlcjFVdGhnbEZialFLd2g5VlhBYlhJRzh6ZjRobDcwQUJkb0UxUnVYSHJreHFEWmVsZnhoYlpCM0lwZ2FQakJVSFdaRFY4eQ?oc=5",
-          "published": "Tue, 19 May 2026 07:00:00 GMT",
+          "title": "New hiring models emerge to tackle SA tech talent gap - ITWeb",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOXEzNjV3V3lhVThkZzlnaVpUZUhzUVNEclQwM3YxSWxCLXlBRWZTMHZiNTBSVDl2eEFObUFoRVZvRU9qay1LdmNQZmhiMjZaZUlnSEwxaTNZMlpvdWQwVVlKS3liVTkxSktIM183VjllcDVfYXhfWmExSVB0WEk3cWVidHMtV2VSTC1IUXBaLU5pRURURlE3QnVGLXRSV293NHJfNA?oc=5",
+          "published": "Fri, 13 Mar 2026 07:00:00 GMT",
           "tone": "positive"
         },
         {
@@ -417,9 +417,9 @@
         "yoy_change_pct": -100.0
       },
       "news_counts": {
-        "positive": 11,
+        "positive": 12,
         "negative": 0,
-        "neutral": 29
+        "neutral": 28
       },
       "news_signal": 1.0,
       "headlines": [
@@ -454,9 +454,9 @@
           "tone": "positive"
         },
         {
-          "title": "Freight and Logistics Market Size, Share, Growth Report 2035 - Market Research Future",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdFY3Tlg2dUZMV1ZZWjRrYUpWa2RVcUY3WTVUUHZfMzBndlVuWk83dTRKczQ1Q3ZleTlHUDFKTlBhME8zVEwyN2xzWXU1NzAtZVRHZWhMNUtYVnFuMl84RVV4am9oTEE0QU14N1BFLXFtNk9RNDVmMk84WFlLVHFwOEZfZlI?oc=5",
-          "published": "Mon, 06 Apr 2026 07:00:00 GMT",
+          "title": "MSC Expands Central African Footprint with New Kribi Intermodal Corridor - LM - Logistics Manager",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeVlvZnR4enVMTEZRWER1N1pOTW5vaGIxbTF5RTY0Zk5BQTRLZUgtUDMwRy1RQzNKTnZqX1A4bll4ZEphLVRpaGo4WGx2LS1Eek9UcHlPek05M1RuMXptUEszS0xwdWdFazREdDhMSEFFUDdWZEQ0dWtsN2pXMG5WclJ4X2xLUmRTd2xvb0tId1Jzdl9RY1h6ZW1rckNGZkpmZUZTS25R?oc=5",
+          "published": "Tue, 09 Jun 2026 07:00:00 GMT",
           "tone": "positive"
         }
       ]
@@ -482,9 +482,9 @@
         "yoy_change_pct": -38.1
       },
       "news_counts": {
-        "positive": 8,
+        "positive": 9,
         "negative": 0,
-        "neutral": 32
+        "neutral": 31
       },
       "news_signal": 1.0,
       "headlines": [
@@ -523,6 +523,136 @@
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeVBVS1diUGIxTTMwRTNyZkNkRlV0dWJ3czBMTzNIZjN4TnZDT25PRU5wSHpHdUxUOEg1MXg0dkwyYzZzT1ZtRkwxOWVHVnRQUXl6aFZKYmFxdU9oYVUzRFRrS0dyQkRTeVJPMFNYWDFYUlczN2ZycDlialRyazNwTUgxVG8xVzFIbVNuMDYxVjBLNXVaSGlIbU0wN3E4b0IyZFp4bnExel9JM0ZBMU9HTUF3?oc=5",
           "published": "Mon, 19 Jan 2026 09:38:27 GMT",
           "tone": "positive"
+        }
+      ]
+    },
+    {
+      "key": "energy",
+      "name": "Energy & Renewables",
+      "composite": 69.7,
+      "verdict": "Healthy / improving",
+      "opportunity": 76.5,
+      "components": {
+        "structural": 88.0,
+        "momentum": 27.4,
+        "news": 100.0,
+        "failure": 60.0
+      },
+      "avg_growth_3yr": -0.76,
+      "liquidations": {
+        "ytd_total": 0,
+        "same_month_prev_year": 0,
+        "prev_month_total": 0,
+        "month_total": 0,
+        "yoy_change_pct": null
+      },
+      "news_counts": {
+        "positive": 6,
+        "negative": 0,
+        "neutral": 34
+      },
+      "news_signal": 1.0,
+      "headlines": [
+        {
+          "title": "Grid expansion, management critical as South Africa’s electricity sector decentralises - Engineering News",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbFFHb1p5T2lvT1V4S2RqMUhVYWRUNnZJcU5PUUtESzlWM01TQU94N3JIc2pIYnEtNjZXN0k3ZlpSZmtxRVo4MS1zY3U4OVNsMEVwbEd6dU9MYTNyTkcwSXlfRnFlWVZvd2l4N3VqOWIydTBUUUtXOHJTc2J0YkRGWTNyVUtBV2ludy1XV1UwLUlsdXVWeDNvYnZ3VFZ6TVA4MXFITldqaWVmY3U4cm1pWDVsUmN5TWhpZTV5QnBPcE1PczIxQkdIWUNJVzlqMlVieVRn?oc=5",
+          "published": "Fri, 12 Jun 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Green energy features prominently at 2026 investment gathering - Engineering News",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQnFxazcwZ25NOW5mc1VCalozZzdpTzdxY256X01nLWNFVnZNb2pHTFdzNEZ2bmJVRW9fQnVwTG5LV2F2S1BmaHNxV29wQ1A0U2Z0UWEzREFMd0NvSFpkWXZNRTExUzdSM0VKOHRTaEZ5RFMwR216ajNJckVJZ3hNaVRMWXRzQzZsU3dXbEVYVDFHelJRV3FONjdQV1YxbHZVSU9yTEo0c1NRTDVzWkhlN0VSQzhCZw?oc=5",
+          "published": "Wed, 01 Apr 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "South Africa Set For Record Renewable Energy And Battery Storage Growth In 2026 - SolarQuarter",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdHRreHI0MHpNSjhkbk9FajJnU0VLQ0hab0JoUGNjbXQ3NUhDM2djRnlVeWtjQXpXWDAwUm5EM0NOV2IwMTJSUThGRHZUOF9tMWtnM0VxWkxNYWE4ajdCZXlNNk9uWW5BcjZheHM0Ym10V0c3eGdvTWtaLVpvLXM0WWxIQlhlVnZ1T0lTMWdiUXJ1bDlRUkRiV1hLM2xCN3hpR0cyem1mMWp4bkJ2N2hfbUlHOWRmZWPSAbwBQVVfeXFMTXpPaVNRcFVlZ1FNWXQ3UGgyTHZoSjIwb1RHTmpTNlJRRERsRVJobzlTSkxZWEpIeWY2TTVKeVJVSzZ3TG8xYjlfR1NHVVdIM3YwMU53VzRidnA1ajhmQ3RXZVdKamxaeEE3bnN1a3FMRFB5cWloeW50S0RIb0ROeFlESzlCRzIyUVkzX0NIZkpYZVM1Y2hmUGhEeTVRbkRyZnNpT1hXWF9RSFNDcHprTlVyVm5iUWpLY2ZvVnY?oc=5",
+          "published": "Tue, 05 May 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "H1 Holdings and Revego explore merger to create R13.3bn renewable energy investment platform amid ongoing empowerment funding scrutiny - Green Building Africa",
+          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOajVWSjRicTFrblR3Y0dnN1RfRHp2NldMeDA0VEpyV2NUbEZXaXlqWk9MMURGOFBINXl1eEpoN2FSOFlCVnFZUzhmU1NMeGN5TWhHVXNOX1djZXpucVFubzRHbTFsd1NvSmJtb0N2OFU2anljd2t5QXpITTVwUFdwa3BOdHY3M2Y1VmhpVXY1V0FZaU9JMW44eFZqTWFOY0tBazB0SkhaaHF1WGJ6Sl9HMGdHaXBBOWxwSmdxb0tIWFNQVWhwcWwxdjJiSXVxdy1LOWlXV0ROS21mbXZTbi1zemVma29ndWwyWHAxX1BINnZ0aG1jUU12MUlUakJmQzE2cXFV?oc=5",
+          "published": "Thu, 11 Jun 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "South Africa’s Renewable Energy Shift Opens R161.2 Billion Investment Opportunity Through 2030 - SolarQuarter",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNblZMMF9uSXlDRXlmb0dBVE5UX2tja3ZrTUFwVTBQTTdHTW9zeWlpcUQ0dFY4Tk1Db0F4NDZ6S3ZUbDlVTHRuU2tyVWdqSEhrcE1FMm10R3hacERvZ1pyM2JDbzdNWjZ2VWNyR2pFc3RCOHNpbEdsbE13OXdGRFRVTFZPWXc5cmFUMGpOdVdLZEpyM0hsUVR3YUtudjlfTWJUZFRlejZGcWpGNUZCSHY2XzFudWg3WHFKdTdKZ0JteUx6S2ZzbUxvWW930gHPAUFVX3lxTE55c2NxQkNEeTJIX3EtNnhucDZpdk9iVUNMS245ZFlYbzRLRW1HdFd1QVJHNG1XUHMxZF9NMTdKNlNldlk1N0xFZXdFNzA1cTNDQW1LdmhtMUkwLUY5UjIyTV96Q1ppa3pBYnJrUWlhNlU1cmJHd1JUM1lud3g4TTJCV29IcXp4bmdjWHJQQ0NtUWZFbEtlT3BGdi1CTUVncjBuTmNKbExrazBGOHdoX2tjNWtpWVdhMmo3cy1BV1FHYXVqU2JXYnZRQ0NfZ2xCYw?oc=5",
+          "published": "Tue, 02 Jun 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Infinity Power signs EPC deals for 774MW of solar capacity in South Africa as renewable energy investment accelerates - Africa Sustainability Matters",
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNZnQxM18tUXo0YWdrVDh5VWw1b19iQWp1eC1QYVloc3Mwamd4NDhXOXRQdFRtak03eGtPdDlHQTlLOGphWFVNVFF5RWx1SmplWnE4YlV2NEVURGlNelVZRHRZQUphNjhWTHlUTjdrZWpDTF9yeHM5a2xBMnBRZF90YUxHOEdLNE5TekxkendKZVlDZHg2ckZCQk5OVk8yYmU3X1NTdU1WeXBGMnZjeHZIN0NTN016SXYyQ2pDZUg1NGFXWm9WZm1CY2hEaXBpZEwxLVU4UHpUY0NSOGo3YTJNejRtVFhfSE5EWF96SXZtaw?oc=5",
+          "published": "Mon, 22 Jun 2026 08:04:02 GMT",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "key": "tourism",
+      "name": "Tourism & Hospitality",
+      "composite": 69.2,
+      "verdict": "Healthy / improving",
+      "opportunity": 70.4,
+      "components": {
+        "structural": 76.0,
+        "momentum": 43.2,
+        "news": 95.0,
+        "failure": 63.8
+      },
+      "avg_growth_3yr": 0.82,
+      "liquidations": {
+        "ytd_total": 129,
+        "same_month_prev_year": 29,
+        "prev_month_total": 23,
+        "month_total": 19,
+        "yoy_change_pct": -34.5
+      },
+      "news_counts": {
+        "positive": 19,
+        "negative": 1,
+        "neutral": 20
+      },
+      "news_signal": 0.9,
+      "headlines": [
+        {
+          "title": "Africa's Travel Indaba opens in Durban - ECR",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9zRG5XNEJnMDNsWW9mckpsc0kwaEdCZ3g3NENWQTZGS1pnc3RZTzdtc2VrSU1KX2dpZEVfQVhncmN0cDhBcE1EQ0FjbFN4U2hZdk8ySjFBVzllREplVF9wcnhkUEFnMHJtbUFBZHRKS01PRDhsTjE4MA?oc=5",
+          "published": "Tue, 12 May 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "South Africa’s tourism sector is booming with tourists seeking authentic experiences - novanews.co.za",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaDRoYkM2T1VxcktDNndMYzNUdG93Q1FmWXZIMnZXUlRuNUxYcFdYSHAxRjlQSHBBOU5vaVp3aWdpSkN4NUxvdkxtWE9wQm80cmQzSy1Qc012RldXakdISlNnTmRQWk1sTUQ5Y0I5SFVObWFNSjZLa1VjQm14aExoWm9VcGhVZFM2cHJsTGh0LWM3NEloYnQwekxXbDZYRC1ZVlpLelhpSzFVWFBB?oc=5",
+          "published": "Fri, 03 Apr 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Hilton to double South African portfolio: massive expansion planned through 2030 - sundayindependent.co.za",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxcHR3QUNINDhYUEVOTEV6bjNPWmpka09mQ1lRUUFZdWdQXzNIQURKdU5ERHNRa2gyeWNFdjhGZzNOVmNma2V6S1RhdXA3bUZuY0hEUWsycTNrMkpidDk5bTlVWU5tVlZaQ3hjNlVUangya1BpRkE?oc=5",
+          "published": "Tue, 30 Jun 2026 12:08:48 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Ekurhuleni showcases tourism and investment potential at World Travel Market Africa - The Citizen",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMG45VGxRa01pbGJyci1QVVMydmVpSWhrbkh4Z1BnMmFId1E0eXVXeEFBeWFTS3FfVktoRUNkMG5YUzhLMmlSYkFRXzVteXZZQXYyN2dEUGRMUHQyLXlXV0E1ay10Uk82YUgxakx3QlprNDg0TW1mQVdsMlF4VE9oektvX3NoR2tyZld2WVZPclctZ3dxTDZ1d3lNb0hGZ1VxQzdMV1NYbk01dkdSaW8zT2g4VGwzc284SVVwYWJFdGFhdk1MbDBNZG5RT0s5Tk1KT0lOdlpuSEdfMi02bC13Tjc3WkdJVy10?oc=5",
+          "published": "Fri, 17 Apr 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Africa’s Travel Indaba boosts Durban economy and drives African tourism growth - Mail & Guardian",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxON1VBQmFHU3NZOG5TYVNmUU5uV3RsMFBPclBHUm5VaTAxclJsTnJZOVo1bXZxNkR5RVRiME02Q1h6OGNJQjZVaDMxLVllSHNuZmYtOGRLZG1NdXBhX3ZlRUlGWWNPbkxvMjMyNGVqVFBRenJPQ2RXTE8xZm1vaXp5bldBUFlOY3RDRnc4M3NYdlR5YnRvOEY3Z1hULTl4bG9CRFdmNVJDVU1OdGY0Slk1ci1aaEVJN2F2Z0F2N2ZKTzJBbms?oc=5",
+          "published": "Wed, 13 May 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "US tourism decline: Why travellers are snubbing Trump’s America - SAPeople",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYTR5aXEzZFNnRFREZ2U2ZTJGdjR4d1RNby1YcTh3cFNGMGNKdkllRUJzRDBLWmlkUVVwOXNvaUF3M0JqWmN3QVRhWjhqU2k3MWVwWEdUZUgyQzZYX1R1ZGl3M1FldEJXYm52c181REhBTWlrT3laRHJ3TFRzbi0xNGtVZ09xQU9TejdjaHZxRXlFcFBMYWZhdW4zUTYzbjFselZsU2ZfRQ?oc=5",
+          "published": "Wed, 27 May 2026 07:00:00 GMT",
+          "tone": "negative"
         }
       ]
     },
@@ -578,145 +708,15 @@
           "tone": "positive"
         },
         {
-          "title": "Agricultural growth likely to slow in 2026 - Farmer's Weekly SA",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWEdKWExfbV9iVmpRTkVnVmNMcmdXUFRlaDFRY1NDcFMtSERJNGRFbVp3RXJHeXdiV2NQTTBSZE93ZmxxSUhLVzJGRzloWmlkaFUwUHRLXzJtU3NJZnlJdnF3dVYtcnRuaTdBVGIzNGJlRldwcm82ZUlJOGlRbXg0cHRycF9QaFZ0Q0hxa3h0STMyWHRQUlFjbDFqQmZ6cEU?oc=5",
-          "published": "Sun, 01 Feb 2026 08:00:00 GMT",
-          "tone": "positive"
-        },
-        {
           "title": "SA agriculture posts record exports, despite global headwinds - South African Government News Agency",
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMHJKVHVGRVpqaWNUZGJZa0xDc2JGc2k5UXRnMUhDalVNbnRVSC1JamsxS2hSUjJFb3d6c3V1M0lrcmtKTlJKNkd5UVZXcmszYW1XRUZlbXl3NWlBWGJBaVdMOVQxM0pkLWFIczlaSDByWWh6cURTN21vR295ckJQeng1c2oxeWJyYllnazJJZDVMRnR0V3pobk0zc05tT096?oc=5",
           "published": "Thu, 05 Mar 2026 08:00:00 GMT",
           "tone": "positive"
-        }
-      ]
-    },
-    {
-      "key": "tourism",
-      "name": "Tourism & Hospitality",
-      "composite": 68.0,
-      "verdict": "Healthy / improving",
-      "opportunity": 70.4,
-      "components": {
-        "structural": 76.0,
-        "momentum": 43.2,
-        "news": 89.5,
-        "failure": 63.8
-      },
-      "avg_growth_3yr": 0.82,
-      "liquidations": {
-        "ytd_total": 129,
-        "same_month_prev_year": 29,
-        "prev_month_total": 23,
-        "month_total": 19,
-        "yoy_change_pct": -34.5
-      },
-      "news_counts": {
-        "positive": 17,
-        "negative": 2,
-        "neutral": 21
-      },
-      "news_signal": 0.789,
-      "headlines": [
-        {
-          "title": "Talent crisis in hospitality: Why we need to rethink skills, not just fill jobs - Moneyweb",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbmFScXhBVlVyRlNUSnJ6ZXpGb29OZWlRakhsOU1XS1hMWjg0UWc1LS1XWlFOYW9xNkVfRzZWaVlwVm92anJuRHI0VVZFSzBwQTFoRGhMb3Ruems5OGlUVnN2SHVDZS1vcE4xc3hKU2FPZWY5OEtjU2Y4dkN6bU9hVjJfR1ptQmhyWDFXZkVRVGpwVmRmMjlKSTVlMmpmUUtYMlpYcTBlMXItWF9FbENkeXpOZVJLaFJjTEhBWWFLbWEzSVdoa0E?oc=5",
-          "published": "Sun, 19 Apr 2026 07:00:00 GMT",
-          "tone": "negative"
         },
         {
-          "title": "Africa's Travel Indaba opens in Durban - ECR",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9zRG5XNEJnMDNsWW9mckpsc0kwaEdCZ3g3NENWQTZGS1pnc3RZTzdtc2VrSU1KX2dpZEVfQVhncmN0cDhBcE1EQ0FjbFN4U2hZdk8ySjFBVzllREplVF9wcnhkUEFnMHJtbUFBZHRKS01PRDhsTjE4MA?oc=5",
-          "published": "Tue, 12 May 2026 07:00:00 GMT",
-          "tone": "positive"
-        },
-        {
-          "title": "South Africa’s tourism sector is booming with tourists seeking authentic experiences - novanews.co.za",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaDRoYkM2T1VxcktDNndMYzNUdG93Q1FmWXZIMnZXUlRuNUxYcFdYSHAxRjlQSHBBOU5vaVp3aWdpSkN4NUxvdkxtWE9wQm80cmQzSy1Qc012RldXakdISlNnTmRQWk1sTUQ5Y0I5SFVObWFNSjZLa1VjQm14aExoWm9VcGhVZFM2cHJsTGh0LWM3NEloYnQwekxXbDZYRC1ZVlpLelhpSzFVWFBB?oc=5",
-          "published": "Fri, 03 Apr 2026 07:00:00 GMT",
-          "tone": "positive"
-        },
-        {
-          "title": "Hilton to double South African portfolio: massive expansion planned through 2030 - sundayindependent.co.za",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxcHR3QUNINDhYUEVOTEV6bjNPWmpka09mQ1lRUUFZdWdQXzNIQURKdU5ERHNRa2gyeWNFdjhGZzNOVmNma2V6S1RhdXA3bUZuY0hEUWsycTNrMkpidDk5bTlVWU5tVlZaQ3hjNlVUangya1BpRkE?oc=5",
-          "published": "Tue, 30 Jun 2026 12:08:48 GMT",
-          "tone": "positive"
-        },
-        {
-          "title": "Ekurhuleni showcases tourism and investment potential at World Travel Market Africa - The Citizen",
-          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMG45VGxRa01pbGJyci1QVVMydmVpSWhrbkh4Z1BnMmFId1E0eXVXeEFBeWFTS3FfVktoRUNkMG5YUzhLMmlSYkFRXzVteXZZQXYyN2dEUGRMUHQyLXlXV0E1ay10Uk82YUgxakx3QlprNDg0TW1mQVdsMlF4VE9oektvX3NoR2tyZld2WVZPclctZ3dxTDZ1d3lNb0hGZ1VxQzdMV1NYbk01dkdSaW8zT2g4VGwzc284SVVwYWJFdGFhdk1MbDBNZG5RT0s5Tk1KT0lOdlpuSEdfMi02bC13Tjc3WkdJVy10?oc=5",
-          "published": "Fri, 17 Apr 2026 07:00:00 GMT",
-          "tone": "positive"
-        },
-        {
-          "title": "Africa’s Travel Indaba boosts Durban economy and drives African tourism growth - Mail & Guardian",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxON1VBQmFHU3NZOG5TYVNmUU5uV3RsMFBPclBHUm5VaTAxclJsTnJZOVo1bXZxNkR5RVRiME02Q1h6OGNJQjZVaDMxLVllSHNuZmYtOGRLZG1NdXBhX3ZlRUlGWWNPbkxvMjMyNGVqVFBRenJPQ2RXTE8xZm1vaXp5bldBUFlOY3RDRnc4M3NYdlR5YnRvOEY3Z1hULTl4bG9CRFdmNVJDVU1OdGY0Slk1ci1aaEVJN2F2Z0F2N2ZKTzJBbms?oc=5",
-          "published": "Wed, 13 May 2026 07:00:00 GMT",
-          "tone": "positive"
-        }
-      ]
-    },
-    {
-      "key": "energy",
-      "name": "Energy & Renewables",
-      "composite": 67.2,
-      "verdict": "Healthy / improving",
-      "opportunity": 76.5,
-      "components": {
-        "structural": 88.0,
-        "momentum": 27.4,
-        "news": 87.5,
-        "failure": 60.0
-      },
-      "avg_growth_3yr": -0.76,
-      "liquidations": {
-        "ytd_total": 0,
-        "same_month_prev_year": 0,
-        "prev_month_total": 0,
-        "month_total": 0,
-        "yoy_change_pct": null
-      },
-      "news_counts": {
-        "positive": 7,
-        "negative": 1,
-        "neutral": 32
-      },
-      "news_signal": 0.75,
-      "headlines": [
-        {
-          "title": "Grid expansion, management critical as South Africa’s electricity sector decentralises - Engineering News",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbFFHb1p5T2lvT1V4S2RqMUhVYWRUNnZJcU5PUUtESzlWM01TQU94N3JIc2pIYnEtNjZXN0k3ZlpSZmtxRVo4MS1zY3U4OVNsMEVwbEd6dU9MYTNyTkcwSXlfRnFlWVZvd2l4N3VqOWIydTBUUUtXOHJTc2J0YkRGWTNyVUtBV2ludy1XV1UwLUlsdXVWeDNvYnZ3VFZ6TVA4MXFITldqaWVmY3U4cm1pWDVsUmN5TWhpZTV5QnBPcE1PczIxQkdIWUNJVzlqMlVieVRn?oc=5",
-          "published": "Fri, 12 Jun 2026 07:00:00 GMT",
-          "tone": "positive"
-        },
-        {
-          "title": "Green energy features prominently at 2026 investment gathering - Engineering News",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQnFxazcwZ25NOW5mc1VCalozZzdpTzdxY256X01nLWNFVnZNb2pHTFdzNEZ2bmJVRW9fQnVwTG5LV2F2S1BmaHNxV29wQ1A0U2Z0UWEzREFMd0NvSFpkWXZNRTExUzdSM0VKOHRTaEZ5RFMwR216ajNJckVJZ3hNaVRMWXRzQzZsU3dXbEVYVDFHelJRV3FONjdQV1YxbHZVSU9yTEo0c1NRTDVzWkhlN0VSQzhCZw?oc=5",
-          "published": "Wed, 01 Apr 2026 07:00:00 GMT",
-          "tone": "positive"
-        },
-        {
-          "title": "Mulilo closes financing for 77-MW/308-MWh BESS project in S Africa | Energy Storage News - Renewables Now",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOY3dyQno5XzJJcHZOUW5tUmRVOWhNVXB0c3puY1JBcnh4NXNKM3ZMQTJJMHV4cmxsVVp0am4tenpnaVMzWHEyQzlMdTMyaXBYUG95Y3BKaGxCV2o1b3FCYzlMRE1JUXRDS3UxSzB0LUxiem01TVZBZ3BkTl9fMjZhZ0lvMU5rX2FKdDRXZmdpV3NWVHJxWUV5b1BzWVNwRjVNYkVBeXR5YlA?oc=5",
-          "published": "Thu, 11 Jun 2026 07:00:00 GMT",
-          "tone": "negative"
-        },
-        {
-          "title": "South Africa Set For Record Renewable Energy And Battery Storage Growth In 2026 - SolarQuarter",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdHRreHI0MHpNSjhkbk9FajJnU0VLQ0hab0JoUGNjbXQ3NUhDM2djRnlVeWtjQXpXWDAwUm5EM0NOV2IwMTJSUThGRHZUOF9tMWtnM0VxWkxNYWE4ajdCZXlNNk9uWW5BcjZheHM0Ym10V0c3eGdvTWtaLVpvLXM0WWxIQlhlVnZ1T0lTMWdiUXJ1bDlRUkRiV1hLM2xCN3hpR0cyem1mMWp4bkJ2N2hfbUlHOWRmZWPSAbwBQVVfeXFMTXpPaVNRcFVlZ1FNWXQ3UGgyTHZoSjIwb1RHTmpTNlJRRERsRVJobzlTSkxZWEpIeWY2TTVKeVJVSzZ3TG8xYjlfR1NHVVdIM3YwMU53VzRidnA1ajhmQ3RXZVdKamxaeEE3bnN1a3FMRFB5cWloeW50S0RIb0ROeFlESzlCRzIyUVkzX0NIZkpYZVM1Y2hmUGhEeTVRbkRyZnNpT1hXWF9RSFNDcHprTlVyVm5iUWpLY2ZvVnY?oc=5",
-          "published": "Tue, 05 May 2026 07:00:00 GMT",
-          "tone": "positive"
-        },
-        {
-          "title": "H1 Holdings and Revego explore merger to create R13.3bn renewable energy investment platform amid ongoing empowerment funding scrutiny - Green Building Africa",
-          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOajVWSjRicTFrblR3Y0dnN1RfRHp2NldMeDA0VEpyV2NUbEZXaXlqWk9MMURGOFBINXl1eEpoN2FSOFlCVnFZUzhmU1NMeGN5TWhHVXNOX1djZXpucVFubzRHbTFsd1NvSmJtb0N2OFU2anljd2t5QXpITTVwUFdwa3BOdHY3M2Y1VmhpVXY1V0FZaU9JMW44eFZqTWFOY0tBazB0SkhaaHF1WGJ6Sl9HMGdHaXBBOWxwSmdxb0tIWFNQVWhwcWwxdjJiSXVxdy1LOWlXV0ROS21mbXZTbi1zemVma29ndWwyWHAxX1BINnZ0aG1jUU12MUlUakJmQzE2cXFV?oc=5",
-          "published": "Thu, 11 Jun 2026 07:00:00 GMT",
-          "tone": "positive"
-        },
-        {
-          "title": "South Africa’s Renewable Energy Shift Opens R161.2 Billion Investment Opportunity Through 2030 - SolarQuarter",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNblZMMF9uSXlDRXlmb0dBVE5UX2tja3ZrTUFwVTBQTTdHTW9zeWlpcUQ0dFY4Tk1Db0F4NDZ6S3ZUbDlVTHRuU2tyVWdqSEhrcE1FMm10R3hacERvZ1pyM2JDbzdNWjZ2VWNyR2pFc3RCOHNpbEdsbE13OXdGRFRVTFZPWXc5cmFUMGpOdVdLZEpyM0hsUVR3YUtudjlfTWJUZFRlejZGcWpGNUZCSHY2XzFudWg3WHFKdTdKZ0JteUx6S2ZzbUxvWW930gHPAUFVX3lxTE55c2NxQkNEeTJIX3EtNnhucDZpdk9iVUNMS245ZFlYbzRLRW1HdFd1QVJHNG1XUHMxZF9NMTdKNlNldlk1N0xFZXdFNzA1cTNDQW1LdmhtMUkwLUY5UjIyTV96Q1ppa3pBYnJrUWlhNlU1cmJHd1JUM1lud3g4TTJCV29IcXp4bmdjWHJQQ0NtUWZFbEtlT3BGdi1CTUVncjBuTmNKbExrazBGOHdoX2tjNWtpWVdhMmo3cy1BV1FHYXVqU2JXYnZRQ0NfZ2xCYw?oc=5",
-          "published": "Tue, 02 Jun 2026 07:00:00 GMT",
+          "title": "South Africa is stabilising its sugar industry through deliberate reform and investment - South African Government News Agency",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc1doeERfNzlhR0tnUnRVelRKZ0paUmliWXRXZmtfcjROb3EwVTQxSzY5anJ5WVJkWEV2Q0NLVHpCUnQtSnk5VTBCNVBaWHJ4ejJNeEsxRW5INHJPUldtNXlGWU9wejMwY3d0SDZBaVRZbFdMMkx3U1BleVA5cnV2djZkU3BHUjMybmV2cUk1eWRpaTdjaHpzcTdlM0llMGl1UU56R3UzNi1tOEpGSkRUVVFBcFVOYjBEbTBoMk5QSVY?oc=5",
+          "published": "Thu, 16 Apr 2026 07:00:00 GMT",
           "tone": "positive"
         }
       ]
@@ -742,9 +742,9 @@
         "yoy_change_pct": -34.5
       },
       "news_counts": {
-        "positive": 10,
+        "positive": 9,
         "negative": 0,
-        "neutral": 30
+        "neutral": 31
       },
       "news_signal": 1.0,
       "headlines": [
@@ -809,7 +809,7 @@
       "news_counts": {
         "positive": 4,
         "negative": 2,
-        "neutral": 13
+        "neutral": 12
       },
       "news_signal": 0.333,
       "headlines": [
@@ -891,12 +891,6 @@
           "tone": "positive"
         },
         {
-          "title": "South Africa investment report 2025 /2026 - JLL",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9UcThWWnpiZTNfZzBmWktCb25heGFwNTBLODBfWEhxWF80cXpQMWxla0pyWUgyNVpQMlU0UHRvOTlaMUw5SHJmTkpsbU9hN2ZZOGtBNktJUVFMalRYYUNwUlhINmU2VU1ldnZyWnpwTjkxQzg?oc=5",
-          "published": "Mon, 23 Mar 2026 07:00:00 GMT",
-          "tone": "positive"
-        },
-        {
           "title": "South Africa's property boom returns but not all regions are winning - IOL",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZmFMdVFudHNWSWV2T3pkbUYwdzgxd1NQcm5ZajJsOW1YN0cwTzd3SlZ3dURfa2RCV0VsTnozbFdtdnRCRHNzZ1pTTE5QOUl6OEZrTlBCRWdCUlJ6dDZkdWJiTVZMRlFCMVZwVE92X2FvbTVaWUVfV3lXX3ZSbGFrYld6RVhtMm1rQ3Y1dGpEamk0N3c3ajlxWXhMMEVob0k4a1RvS1VuT2ZUZGJZX3hKWDFDdXA0dw?oc=5",
           "published": "Sat, 21 Mar 2026 07:00:00 GMT",
@@ -912,6 +906,12 @@
           "title": "Cape Town property prices are hitting record highs as affordability reaches a breaking point - IOL",
           "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRVNtRlBWZTFlWXNKMS14RlFjYWJoQzExLUpEUEJNOEt4VE1ITDRQUGlvSUY4dUhLM01MZjgwYV9rTDJfNUlvanB4aU5HbGYyWHhPaXRfUXdpenVvWUVabUQzM2otSUVIRXM2bnlXeDI2OHM4RkUyRVJrcGpJeDgxdEdCd1JUa2pHdHZaejdSM2tLSmxBN1V1QlVjR3NGY1NtNXVyQkpMRWVnNzA3cWktQndJY2lOUmdZSDRVelNIaUxRMloxT0RTRTVqS2VUVnBXbGFyVlVSZw?oc=5",
           "published": "Thu, 30 Apr 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Why 2026 is the year of the property market rebound - IOL",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZFQtQVdIMkRUZG1SZDVNY2tJaWxrUklSWjVndUNreVg0a05uZjN6c1RrWUVoUzdsQ0xUYWhCMkZ2bHo0NlJBbGQtZFJhYnJ3OU9MeFpqa2VUV25hNUdOTDJ3WVJUaHpPaUZNaVk2WWtyWEtkR2Z2TmdZd01ybFdHc25wSUdodkdYUnNwMkVSc3VVWG9OOWlMcmFJU3UzOVdB?oc=5",
+          "published": "Wed, 14 Jan 2026 08:00:00 GMT",
           "tone": "positive"
         }
       ]
@@ -984,13 +984,13 @@
     {
       "key": "manufacturing",
       "name": "Manufacturing",
-      "composite": 56.7,
+      "composite": 56.2,
       "verdict": "Stable but competitive",
       "opportunity": 50.0,
       "components": {
         "structural": 58.0,
         "momentum": 31.1,
-        "news": 69.2,
+        "news": 66.7,
         "failure": 74.0
       },
       "avg_growth_3yr": -0.39,
@@ -1002,11 +1002,11 @@
         "yoy_change_pct": -60.0
       },
       "news_counts": {
-        "positive": 9,
+        "positive": 8,
         "negative": 4,
-        "neutral": 27
+        "neutral": 28
       },
-      "news_signal": 0.385,
+      "news_signal": 0.333,
       "headlines": [
         {
           "title": "SAFTU ON THE DECLINE OF MANUFACTURING PRODUCTION AND THE COLLAPSE OF SOUTH AFRICA’S INDUSTRIAL BASE. - South African Federation of Trade Unions – SAFTU",
@@ -1049,13 +1049,13 @@
     {
       "key": "construction",
       "name": "Construction & Infrastructure",
-      "composite": 56.0,
+      "composite": 55.2,
       "verdict": "Stable but competitive",
       "opportunity": 53.2,
       "components": {
         "structural": 55.0,
         "momentum": 27.4,
-        "news": 87.5,
+        "news": 83.3,
         "failure": 62.0
       },
       "avg_growth_3yr": -0.76,
@@ -1067,18 +1067,12 @@
         "yoy_change_pct": -30.0
       },
       "news_counts": {
-        "positive": 7,
+        "positive": 5,
         "negative": 1,
-        "neutral": 32
+        "neutral": 34
       },
-      "news_signal": 0.75,
+      "news_signal": 0.667,
       "headlines": [
-        {
-          "title": "Macpherson welcomes $1bil investment unlocked through Infrastructure SA - South African Government News Agency",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRGc4dVIzTW5qU2FBZ29SelFhV2hRZFVMRnUtMkhsaXgxang3LVVkR3JOUUdzRlVEeVlnM0JhU1RfZmJHQ1dvREdEdW1HSTNSbTVpRkdvZWxPV3lNVmFaYVJPSUdrTjhhT19rY2pTWGdXSl96RFNNWGlYcmlrM2dUMXZwRzVSNEZWWnE3MkpWblZ3QllhY2dzSWcwbS02RjRYTXdfUDU1UVB3UDU2V0E?oc=5",
-          "published": "Tue, 07 Apr 2026 07:00:00 GMT",
-          "tone": "positive"
-        },
         {
           "title": "Infrastructure South Africa raises alarm over high level of tender cancellations - Engineering News",
           "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaVBkaEVPNlcyVGxrd18wcXZnRVo4RlFTUE1qbFZsUDdRRUF0UkgzNEJtTE00eHE1WnU5R25YSFhvZkNhSkZLTTdMaHhrZi04M0h1eFIyam5BYWcyQ2FPZl9DajZMeWRlRy1HZ2J4QU9MTFVGTHhZU3k3ZHY4VmRibmU2eS1yREx1RFpXSnppQU4wclRYdVpVR1VCbUhfa1U3OWd6cElpTmRybU5GTEQ2czVaWlV6ZExEdW5ocy10WkMzUXQtY181elNHblNjUQ?oc=5",
@@ -1094,7 +1088,7 @@
         {
           "title": "DPWI expands artisan pipeline to drive infrastructure development - South African Government News Agency",
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUFlMcVNuTFFiZk14d01vSkI5VHROVzFMU2tfVGZTY1dMa25WMWJGZU9nSjd5M2pqRGJrTGxxdUhsUEktVHZkZWtNaUZOa3BHUmlkUzZlV2dZN1Q1N0twR08yQnNVMkxhbjcwWC1BSlFodjVjTENQUmt4WkszdVQtd0hqVndlZXhIXzZBbUM2dzE2SW0yLTdRV3Vpd1ZPZjN6NUNF?oc=5",
-          "published": "Fri, 26 Jun 2026 08:05:32 GMT",
+          "published": "Fri, 26 Jun 2026 07:00:00 GMT",
           "tone": "positive"
         },
         {
@@ -1108,19 +1102,25 @@
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNTNWUy1DaXltcFE5R284YUpKOW42RUphYnJTcEV0TnhmYndhYzNWdmxDdnUzUWtnVi1WVmJLSzJ3N0prZ0pmdXV4WW9jODM4S2dLN0RRTlFoLTRHYVljRHlDZjMzQXFVUTA0ZzlVU29vVlJQMlB4UG9oVG56MjVSYW1FWkRLR0FGTkRiM0VrVkpMd0hFNzloOGNDNVBmTl9maFBnNjFCQUdfaHdwa2NF0gG3AUFVX3lxTE9nelBhUmlwYS03dUJXSjlCMl9ycnl5TFNWaV9NTzQ5WF9BSXVtVE9rYmhUcFVhRWg3VWM3NVBULWgzZ0N5WTRoQVBuQjBrUFY0WWRXS0pZU1VfcW9PdFFZdGV3VGV6b0g0WTRaOXo3MmJVNWZIUC1halJzRWppcktfa2l1cExEWnV1UXdYVGQ2aHRFSFdna1pMaC0wc2tLNXBYSTdFVE9xUVRpSXpCZUhNendqaEZIZw?oc=5",
           "published": "Tue, 05 May 2026 07:00:00 GMT",
           "tone": "positive"
+        },
+        {
+          "title": "Infrastructure investment shows signs of recovery, shows BER report - businessreport.co.za",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdjhqakZ4V3Y4ajZGTWxWSVJjNnRHcXk3azBIR1ZvOW9fWTlHQzVqdWF2SFJwSFd5YWhNSmdnN3R4cE10N1FCaHRCbjM2OGhiZ0pMbjhyeHAwYTYzMExmWVRaTVVXeVBwMXdUay1yRGFrRzJ3TW5mamtnZThwMkVvZ1Y2QVQzRm0xWldURE9zclpleXlweDRxNElBV0ZpMU00U0hrc3ItdGJFM2s2dU1jaTN4dGRxZw?oc=5",
+          "published": "Tue, 27 Jan 2026 08:00:00 GMT",
+          "tone": "positive"
         }
       ]
     },
     {
       "key": "mining",
       "name": "Mining & Quarrying",
-      "composite": 52.9,
+      "composite": 52.6,
       "verdict": "Stable but competitive",
       "opportunity": 32.8,
       "components": {
         "structural": 45.0,
         "momentum": 27.4,
-        "news": 91.7,
+        "news": 90.0,
         "failure": 60.0
       },
       "avg_growth_3yr": -0.76,
@@ -1132,18 +1132,12 @@
         "yoy_change_pct": null
       },
       "news_counts": {
-        "positive": 11,
+        "positive": 9,
         "negative": 1,
-        "neutral": 28
+        "neutral": 30
       },
-      "news_signal": 0.833,
+      "news_signal": 0.8,
       "headlines": [
-        {
-          "title": "Mining industry rebounds to 2-year high amid uneven recovery - businessreport.co.za",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeW41LXpQelFpVUltV3lyRm8wZWtnWmZMa2xoeF9qdDhuZVVYN1NvenZ5V21wVmpFLWwtaXRTYW1rR0s0NW9BQzVqSjVOX2FNdERWQ185TVUyZ2Z5T0Zjd1ZRUl8wb284ZVhjZUlqYlhNWHVyTy13MGstZWhJdlJLRmYtdWlmamxzcWZLQ1doOUwycGphMGpVNUFuNnNnWlRfblUwem9ZcmQ1OXVHU0E?oc=5",
-          "published": "Wed, 15 Apr 2026 07:00:00 GMT",
-          "tone": "positive"
-        },
         {
           "title": "SA’s mining output declines for first time in nine months - Business Day",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOGlRYjBhNF9FbFBSaXAtbEYyTUloOTdkZV9rZFl0X19Qd25OaURuNExWdlVVa25jWHkwR3kzSXQtX2puTy1CWWJsNU5OeWU5WnA1ZGlPNW02b1NYaWxpT01wWmI3dVhZRDB1Q3M0elQ4YlpqTUwxaTRMSkN2YWxJUXUyLUhIMURrMWJEQnY4bWRpWDdDbmFvWFdpZlJySmVWUGt1ZVpRMA?oc=5",
@@ -1151,15 +1145,9 @@
           "tone": "negative"
         },
         {
-          "title": "CLARENCE TSHITEREKE | Nuanced SA mining recovery amid structural constraints - Business Day",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQnRNU3NpV1owaHQwVk0xUGdaeUNfNlRhOExKYW5JOUY4b3F3NDU4LU52YWVsYUVIYVZyTm10NXJCZDEyYmdiOTBYZXlDRWVnZHRvYU9nSjlyN3g5ckozQTV3UXpaM3pmc1k1RWUwN3VJQ3RnVTI4VFZLRmg0a3IyeThleF9vV2xOY1FEWTJxd210UHRSUjlsUldpZE9JRDlhcERpaVk2cllMazMwc18wM0hHdkVxOHlFVmxSVzQ3TmhvZw?oc=5",
-          "published": "Tue, 16 Jun 2026 07:00:00 GMT",
-          "tone": "positive"
-        },
-        {
-          "title": "Platinum to remain in deficit this year, while palladium, rhodium may record surpluses – Johnson Matthey - Mining Weekly",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYnhhX3k1TjBEU3E0dzhPNUhrUFhUTk1uX0xNbDBvWVlDWWRTalY5R0Y4YnQ1OF9YcUVyUjVDdzZReVBsOFplc3M5OWxWVGRZT0VXR1BFVl8zcjdtc1NJVU5IMGdUSkxvTzlvT2lXdENfQmxmNkNsUGMwMDlweXRndFJvS2JxM3lkbHpNOHp4N0hMbDhQeWoxM2pFVHZ5Vzg2MkRKNUdXb09oazNvS1h6bHpsZVZXdkdQSlJwNTFNOEt5SXZwdXptYWZOVl95THp6eW5jX3RBbHBIM195ZllGcw?oc=5",
-          "published": "Thu, 14 May 2026 07:00:00 GMT",
+          "title": "Mining industry rebounds to 2-year high amid uneven recovery - businessreport.co.za",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeW41LXpQelFpVUltV3lyRm8wZWtnWmZMa2xoeF9qdDhuZVVYN1NvenZ5V21wVmpFLWwtaXRTYW1rR0s0NW9BQzVqSjVOX2FNdERWQ185TVUyZ2Z5T0Zjd1ZRUl8wb284ZVhjZUlqYlhNWHVyTy13MGstZWhJdlJLRmYtdWlmamxzcWZLQ1doOUwycGphMGpVNUFuNnNnWlRfblUwem9ZcmQ1OXVHU0E?oc=5",
+          "published": "Wed, 15 Apr 2026 07:00:00 GMT",
           "tone": "positive"
         },
         {
@@ -1169,9 +1157,21 @@
           "tone": "positive"
         },
         {
-          "title": "South African mining industry presenting opportunities, growing pump demand - Engineering News",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdWRxejJJOUI4bnJZdGtxUkVwOWZqdXJmZzdwd2JfNnU1WEdDMUNvcmZwN2hzXzJRTklvcWg2SVlMdkRscE5ZRzR0T2JGM3F2eWpUOWZTN0RoV2RQUlBnZmZqQWhKcUd5cENDdkFUa2Y5cWhDc2ZNdUlMaExLUXpfalVEM2ZsYlVMcFUzWmNXak5wOTVMTmloWUczM3FWN1BPaWx4TFlocm1LWDRWcFdrNnFDUlZXMHhGWGU1UVRTMmlVenhaTEE?oc=5",
-          "published": "Fri, 20 Mar 2026 07:00:00 GMT",
+          "title": "South Africa's gold producers stay in the shallows as prices surge - Mining Weekly",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRWEwamdpcGxGZnYxR2tSeTJzVzdiWnE1RW95aUZ3cjRrMnlNX1VybXgzNnZ4eUhqRXNIM2dlWV85dzFDVExqX0lUUUtpMjlRVFVpRVU5cWFWRHg5ckZzckpJaFNrZGp4Ymx6WFV3c1JDdW1PaDdvbmNyaWVwYzctWUNrQ1VHQ3JaSTdWalNjajlmSGhqVUhwMFFaenJoaXZtckZ4aHJobDY5SkN3dHR1a09tZw?oc=5",
+          "published": "Tue, 24 Mar 2026 07:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Foreign direct investment providing quantum progress, new MC Mining CEO emphasises - Mining Weekly",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQR0FDc0lTNWpuSy1KU2M0ZXJzVGJPdEZtWHBoOVZBUWRzb1N5WTZtbVJjWXhFRnk2Q2RqdWxuaS1ITnVJNklMa1k5ZDBkbmlOd1hxOVA2TXJlTENpRnZhS1dLT3B0QTBQWkx1ajk5RW9Rb3hvZm9zZVEzZ3IwU2J5eTlRZk4xYTRXN2MzczRhQ2trT0dlTHJtdEZfOGxwbTA3REl5SE1VMHZjQ2RpVFZTbFFwaUNmelJZQkZJOEdRLWNPU253by1uNQ?oc=5",
+          "published": "Fri, 23 Jan 2026 08:00:00 GMT",
+          "tone": "positive"
+        },
+        {
+          "title": "Pan African records strong first half - Mining Weekly",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPX19CMXFQR2VsVXhYalJXSndSZW5ZSW5TdUEtaWZwbUNPX1ZiMGJ6dFZ3VHlVMUliMXJfbGlKaFRBWmswZF9PLVFhV0FLU19kcUVYVVp0MUtIMHlVY3BNODZTa0g2ci1tcDhIRWpBckQ3X2hKc2VjQ0lXWW9zZ2dGY3VSSHFheTgybC04RWRR?oc=5",
+          "published": "Mon, 26 Jan 2026 08:00:00 GMT",
           "tone": "positive"
         }
       ]

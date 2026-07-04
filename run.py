@@ -26,7 +26,9 @@ def main():
     ap.add_argument("--out", default="reports", help="output directory")
     ap.add_argument("--sectors", default="", help="comma-separated sector keys to include")
     ap.add_argument("--pdf", action="store_true",
-                    help="also export a PDF (uses installed Chrome/Edge)")
+                    help="also export PDFs (uses installed Chrome/Edge)")
+    ap.add_argument("--playbooks", action="store_true",
+                    help="also generate the market-entry playbooks report")
     args = ap.parse_args()
 
     keys = [k.strip() for k in args.sectors.split(",") if k.strip()] or list(SECTORS)
@@ -92,14 +94,22 @@ def main():
     print(f"\nHTML report: {html_path.resolve()}")
     print(f"JSON data:   {json_path.resolve()}")
 
+    to_pdf = [html_path]
+    if args.playbooks:
+        from samarket.report import playbook_report
+        pb_path = playbook_report.build_playbooks(
+            [r["key"] for r in results], out_dir / f"sa-market-playbooks-{stamp}.html")
+        print(f"Playbooks:   {pb_path.resolve()}")
+        to_pdf.append(pb_path)
+
     if args.pdf:
         from samarket.report import pdf_export
-        try:
-            pdf_path = pdf_export.html_to_pdf(html_path,
-                                              out_dir / f"sa-market-insight-{stamp}.pdf")
-            print(f"PDF report:  {pdf_path.resolve()}")
-        except (RuntimeError, subprocess.TimeoutExpired) as exc:
-            print(f"PDF export failed: {exc}")
+        for src in to_pdf:
+            try:
+                pdf_path = pdf_export.html_to_pdf(src, src.with_suffix(".pdf"))
+                print(f"PDF:         {pdf_path.resolve()}")
+            except (RuntimeError, subprocess.TimeoutExpired) as exc:
+                print(f"PDF export failed for {src.name}: {exc}")
 
 
 if __name__ == "__main__":
